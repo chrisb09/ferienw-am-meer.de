@@ -1,0 +1,427 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+a:link, a:visited {
+    color: inherit; /* Inherits the color from its parent, disabling the default color change */
+    text-decoration: none; /* Removes the underline */
+}
+
+h2 {
+    margin-top: 1vw;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.shadow-image {
+    box-shadow: 0.5vw 0.5vw 1vw rgba(0, 0, 0, 0.5);
+    border-radius: 1vw; /* Optional: Adds rounded corners */
+}
+
+.outer-scroll-container{
+    position: relative;
+    width: 70%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-top: 0vw;
+    margin-bottom: 1vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scroll-container {
+    position: relative;
+    width: calc(100% - 10vw);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scroll-content {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory; /* Enable vertical snap scrolling */
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+.scroll-content::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in WebKit browsers */
+}
+
+.scroll-item {
+    scroll-snap-align: start; /* Snap to the start of each item */
+    flex-shrink: 0;
+    text-align: center;
+    width: 100%;
+    padding: 1vw;
+    margin-left: 0px;
+}
+
+.scroll-item img {
+    width: 99%;
+    border-radius: 10%;
+}
+
+.scroll-button {
+    position: absolute;
+    width: 5vw;
+    top: 50%;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: rgba(127, 127, 127, 0.8);
+    cursor: pointer;
+    font-stretch: ultra-condensed;
+    line-height: 1;
+    z-index: 1;
+    text-align: center;
+    font-size: 4vw;
+    transform:scale(1,2);
+}
+
+.scroll-button.left::before {
+    display: block;
+    color: rgba(127, 127, 127, 0.7);
+}
+
+.scroll-button.right::before {
+    display: block;
+    color: rgba(127, 127, 127, 0.7);
+}
+
+.scroll-button:hover::before {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.scroll-button.left {
+    left: 0px;
+}
+
+.scroll-button.right {
+    right: 0px;
+}
+
+.content-grid {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 2%; /* Space between the image and the text */
+    align-items: center; /* Align items to the center vertically */
+}
+
+.content-grid img {
+    width: calc(99%);
+    border-radius: 1vw;
+    object-fit: cover; /* Ensure image covers its box without distortion */
+}
+
+.text-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center text vertically */
+    text-align: justify; /* Justify text */
+    margin-right: 1vw;
+    margin-left: 1vw;
+    hyphens: auto;
+    font-size: calc(0px + 1.1vw);
+}
+
+.reverse {
+    grid-template-columns: 1fr 1fr; /* Same two-column layout */
+    direction: rtl; /* Reverse the grid direction */
+}
+
+.reverse .text-content {
+    align-self: center; /* Center the text box vertically */
+    text-align: justify; /* Ensure text is justified */
+    direction: ltr; /* Override RTL for the text */
+    margin-left: 0; /* Remove margin to align text box */
+    margin-right: 1vw;
+}
+
+
+
+.reverse img {
+    margin-right: 1vw;
+}
+
+.text-content h3 {
+    text-align: center;
+}
+
+
+.pagination-dots {
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.dot {
+    display: inline-block;
+    width: 1vw;
+    height: 1vw;
+    margin: 0 0.5vw;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background-color: red;
+}
+
+.bottom-border {
+    border: 1vw solid #181b1b;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 1vw 5vw 1vw 5vw;
+}
+
+
+.navbar:after {
+    content: "";
+    background: #181b1b;
+    position: absolute;
+    left: 5%;
+    top: 5vw;
+    height: 0.1vw;
+    width: 90vw;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: calc(3vw - 10px);
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.navbar .nav-links {
+    font-size: calc(1vw + 2px);
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 0.25vw;
+}
+
+.navbar .nav-links .link-box {
+    height: 4vw;
+    background-color: transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center; /* Vertically centers the content */
+    justify-content: center; /* Horizontally centers the content (optional) */
+    transition: background 0.3s ease;
+}
+
+.navbar .nav-links .link-box:hover {
+    background-color: transparent;
+}
+
+.navbar .nav-links .link-box a {
+    color: black;
+    text-decoration: none;
+    padding: 0 10px; /* Add padding for better spacing */
+    display: inline-block; /* Ensures the anchor respects the flexbox alignment */
+}
+
+.navbar .hamburger {
+    display: none;
+    flex-direction: column;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-left: 2vw;
+    margin-right: 1vw;
+    cursor: pointer;
+    z-index: 10;
+    margin-right: 20px; /* Adds some space between the hamburger and the logo */
+    border: 2px solid red;
+}
+
+.navbar .hamburger span {
+
+    border: 1px solid black;
+    width: 5vw;
+    height: 0.75vw;
+    border-radius: 0.5vw;
+    background-color: #979797;
+    margin: 0.25vw 0;
+    transition: all 0.3s ease;
+}
+
+/* Mobile View 768px */
+@media (max-width: 1000px) {
+
+    .outer-scroll-container{
+        width: 100%;
+    }
+    
+    .scroll-container {
+        position: relative;
+        width: calc(100% - 0vw);
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar {
+        padding-left: 0;
+        height: 8vw; /* Adjust this as needed */
+        justify-content: flex-start; /* Align content to the left */
+        overflow: visible;
+    }
+
+    .navbar:after {
+        content: "";
+        background: #181b1b;
+        position: absolute;
+        left: 5%;
+        top: 8vw;
+        height: 0.1vw;
+        width: 90vw;
+    }
+    
+    .navbar .logo {
+        font-size: calc(6.5vw - 3px);
+        margin-left: 0px;
+        padding-right: 0px;
+        padding-top: 0vw;
+        padding-bottom: 0vw;
+    }
+
+    .navbar .nav-links {
+        position: fixed;
+        left: -40vw;
+        top: 8vw; /* Same height as .navbar */
+        height: 50vw; /* Subtract the height of .navbar */
+        width: 40vw;
+        background-color: white;
+        opacity: 1;
+        z-index: 1000; /* Ensure it’s above other content */
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        transition: left 0.3s ease;
+        font-size: calc(5vw);
+        border-bottom-right-radius: 1vw;
+        border-right: 0.05vw solid black;
+        border-bottom: 0.05vw solid black;
+    }
+
+    .navbar .nav-links.active {
+        left: 0vw;
+    }
+
+    .navbar .nav-links li {
+        width: 100%;
+        border: none;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .navbar .nav-links li .link-box {
+        padding: 0;
+        height: 8vw;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar .nav-links li .link-box a {
+        display: block;
+        width: 100%;
+    }
+    
+    /* Target all children except the last one */
+    .nav-links > *:not(:last-child):after {
+    content: ""; /* Add the content for the :after element */
+    display: block; /* Or inline, depending on what you need */
+    /* Add your desired styles here */
+    width: 80%; 
+    margin-left: 10%;
+    height: 0.1vw;
+    background-color: black;
+    margin-top: 0px;
+}
+
+    .navbar .hamburger {
+        display: flex;
+        margin-right: 10px;
+        order: -1; /* Move hamburger to the left of the logo */
+    }
+
+    .dot {
+        width: 3vw;
+        height: 3vw;
+        margin: 0 1.5vw;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+
+    .content-grid {
+        overflow: visible;
+        display: grid;
+        grid-template-columns: 1fr; /* Two equal columns */
+        align-items: center; /* Align items to the center vertically */
+    }
+    
+    .content-grid img {
+        width: calc(100%);
+    }
+    
+    .text-content {
+        height: 100%;
+        text-align: justify; /* Justify text */
+        margin-right: 0vw;
+        margin-left: 0vw;
+        margin-bottom: 3vw;
+        hyphens: auto;
+        font-size: calc(0px + 3vw);
+    }
+    
+    .reverse {
+        grid-template-columns: 1fr; /* Same two-column layout */
+        direction: rtl; /* Reverse the grid direction */
+    }
+    
+    .reverse .text-content {
+        direction: ltr; /* Override RTL for the text */
+        margin-left: 0; /* Remove margin to align text box */
+        margin-right: 0vw;
+    }
+    
+    .reverse img {
+        margin-right: 0vw;
+    }
+    
+}
