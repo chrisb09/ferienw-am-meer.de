@@ -15,10 +15,11 @@
     <meta name="theme-color" content="#5bbad5">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/translate.css">
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/headline.css">
+    <link rel="stylesheet" href="res/Fork-Awesome-1.2.0/css/fork-awesome.min.css">
 
-    <link href="res/fontawesome-free-6.6.0-web/css/all.min.css" rel="stylesheet">
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="js/modal.js"></script>
 </head>
@@ -67,9 +68,23 @@
                 </li>
                 <li>
                     <div class="link-box">
-                        <a href="#">
-                            <div class="headline-tiny">🇬🇧 English</div>
+                        <a href="#" id="translate-button">
+                            <i class="fa fa-language"></i>
                         </a>
+                        <ul class="language-submenu">
+                            <li><a href="?lang=en"><div class="headline-tiny">🇬🇧 English</div></a></li>
+                            <li><a href="?lang=de"><div class="headline-tiny">🇩🇪 Deutsch</div></a></li>
+                            <li><a href="?lang=fr"><div class="headline-tiny">🇫🇷 Français</div></a></li>
+                            <li><a href="?lang=es"><div class="headline-tiny">🇪🇸 Español</div></a></li>
+                            <li><a href="?lang=pt"><div class="headline-tiny">🇵🇹 Português</div></a></li>
+                            <li><a href="?lang=nl"><div class="headline-tiny">🇳🇱 Nederlands</div></a></li>
+                            <li><a href="?lang=uk"><div class="headline-tiny">🇺🇦 Українська</div></a></li>
+                            <li><a href="?lang=tr"><div class="headline-tiny">🇹🇷 Türkçe</div></a></li>
+                            <li><a href="?lang=it"><div class="headline-tiny">🇮🇹 Italiano</div></a></li>
+                            <li><a href="?lang=pl"><div class="headline-tiny">🇵🇱 Polski</div></a></li>
+                            <li><a href="?lang=da"><div class="headline-tiny">🇩🇰 Dansk</div></a></li>
+                            
+                        </ul>
                     </div>
                 </li>
 
@@ -108,7 +123,7 @@
 
         <div class="outer-scroll-container">
             <button class="scroll-button left" onclick="leftScrollButtonClick('wohnung-105')"><i
-                    class="fa-solid fa-chevron-left"></i></button>
+                    class="fa fa-chevron-left"></i></button>
             <div class="scroll-container">
                 <div class="scroll-content" id="wohnung-105-scroll">
                     <div class="scroll-item">
@@ -189,7 +204,7 @@
                 </div>
             </div>
             <button class="scroll-button right" onclick="rightScrollButtonClick('wohnung-105')"><i
-                    class="fa-solid fa-chevron-right"></i></button>
+                    class="fa fa-chevron-right"></i></button>
         </div>
         <div class="pagination-dots" id="wohnung-105-dots">
             <span class="dot" onclick="jumpToSlide('wohnung-105', 0)"></span>

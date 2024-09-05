@@ -128,3 +128,26 @@ document.addEventListener('DOMContentLoaded', function() {
         navLinks.style.top = `calc(${newTop}px)`;
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const translateButton = document.getElementById('translate-button');
+    const languageSubmenu = document.querySelector('.language-submenu');
+
+    // Toggle the submenu on click
+    translateButton.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default link behavior
+        languageSubmenu.style.display = languageSubmenu.style.display === 'block' ? 'none' : 'block';
+    });
+
+    // Close the submenu when clicking outside
+    document.addEventListener('click', function(event) {
+        if (!translateButton.contains(event.target) && !languageSubmenu.contains(event.target)) {
+            languageSubmenu.style.display = 'none';
+        }
+    });
+
+    // Prevent submenu closing when clicking inside
+    languageSubmenu.addEventListener('click', function(event) {
+        event.stopPropagation();
+    });
+});

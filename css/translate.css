@@ -1,0 +1,77 @@
+
+
+#translate-button {
+    font-size: 2vw;
+}
+
+/* General submenu styling */
+.language-submenu {
+    display: none; /* Initially hidden */
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom-left-radius: 1vw;
+    border-left: 0.05vw solid black;
+    border-bottom: 0.05vw solid black;
+    z-index: 1001; /* Make sure it's above other elements */
+}
+
+
+.language-submenu > *:not(:last-child):after {
+    content: ""; /* Add the content for the :after element */
+    display: block; /* Or inline, depending on what you need */
+    /* Add your desired styles here */
+    width: 80%; 
+    margin-left: 10%;
+    height: 0.1vw;
+    background-color: black;
+    margin-top: 0px;
+
+}
+
+/* Submenu for desktop view */
+@media (min-width: 1000px) {
+    .language-submenu {
+        top: 5vw; /* Positioned below the navbar */
+        right: 0; /* Positioned to the right where the button is */
+        width: 13vw; /* Adjust width as necessary */
+        overflow: hidden;
+    }
+
+    .language-submenu li {
+        padding: 0px;
+        text-align: left;
+    }
+
+    .language-submenu li a {
+        display: block;
+        padding: 5px 10px;
+    }
+
+}
+
+/* Submenu for mobile view */
+@media (max-width: 999px) {
+    .language-submenu {
+        position: relative; /* Position within the flow of the navbar */
+        top: 0;
+        left: 0;
+        width: 100%; /* Full width */
+    }
+
+    .language-submenu li {
+        padding-left: 20px; /* Indentation */
+    }
+
+    .language-submenu li a {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .language-submenu li:last-child a {
+        border-bottom: none; /* Remove border from the last item */
+    }
+}
