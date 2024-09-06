@@ -10,9 +10,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Collapse navbar on link click
     links.forEach(link => {
-        link.addEventListener('click', () => {
-            navLinks.classList.remove('active');
-        });
+        if (link.id != "translate-button"){
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        }
     });
 
     // Collapse navbar on outside click
