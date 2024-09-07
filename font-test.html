@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Font Test</title>
+
+    <!-- Local Twemoji Mozilla -->
+    <style>
+        @font-face {
+            font-family: 'TwemojiMozilla';
+            src: url('res/Twemoji.Mozilla/TwemojiMozilla.woff2') format('woff2'),
+                 url('res/Twemoji.Mozilla/TwemojiMozilla.woff') format('woff'),
+                 url('res/Twemoji.Mozilla/TwemojiMozilla.ttf') format('truetype');
+        }
+
+        /* Style for TwemojiMozilla */
+        .twemoji-mozilla {
+            font-family: 'TwemojiMozilla', 'Meta', sans-serif;
+        }
+
+        /* Google Noto Color Emoji */
+        .noto-color-emoji {
+            font-family: 'Noto Color Emoji', sans-serif;
+        }
+
+        /* Twemoji via CDN */
+        .twemoji-cdn {
+            font-family: 'Twemoji', 'Meta', sans-serif;
+        }
+
+        /* System default for Emoji (OS dependent) */
+        .system-emoji {
+            font-family: 'Meta', 'Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+        }
+    </style>
+
+    <!-- Twemoji CDN -->
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Replace all the emojis with Twemoji from CDN
+            twemoji.parse(document.body);
+        });
+    </script>
+</head>
+<body>
+    <h1>Emoji Font Test</h1>
+
+    <h2>Twemoji Mozilla (Local)</h2>
+    <p class="twemoji-mozilla">
+        🇩🇪 🇫🇷 ❤️ 🏳️‍🌈 😄 🍕 🚀 🐱‍👤 💡 🎉
+    </p>
+
+    <h2>Twemoji via CDN</h2>
+    <p class="twemoji-cdn">
+        🇩🇪 🇫🇷 ❤️ 🏳️‍🌈 😄 🍕 🚀 🐱‍👤 💡 🎉
+    </p>
+
+    <h2>Google Noto Color Emoji</h2>
+    <p class="noto-color-emoji">
+        🇩🇪 🇫🇷 ❤️ 🏳️‍🌈 😄 🍕 🚀 🐱‍👤 💡 🎉
+    </p>
+
+    <h2>System Default Emoji</h2>
+    <p class="system-emoji">
+        🇩🇪 🇫🇷 ❤️ 🏳️‍🌈 😄 🍕 🚀 🐱‍👤 💡 🎉
+    </p>
+</body>
+</html>
