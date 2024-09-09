@@ -7,6 +7,17 @@
 
     <!-- Local Twemoji Mozilla -->
     <style>
+
+    @font-face {
+            font-family: 'FlagsOnly';
+            src: url('res/NotoColorEmoji-flagsonly.ttf');
+        }
+
+        @font-face {
+            font-family: 'WavedFlags';
+            src: url('res/WavedFlags.ttf');
+        }
+
         @font-face {
             font-family: 'TwemojiMozilla';
             src: url('res/Twemoji.Mozilla/TwemojiMozilla.ttf');
@@ -15,6 +26,14 @@
         p {
             font-size: 20px;
             outline-color: black;
+        }
+
+        .flags-only {
+            font-family: 'FlagsOnly', 'Meta', sans-serif;
+        }
+
+        .waved-flags {
+            font-family: 'WavedFlags', 'Meta', sans-serif;
         }
 
         /* Style for TwemojiMozilla */
@@ -50,6 +69,20 @@
 </head>
 <body>
     <h1>Emoji Font Test</h1>
+
+    <h2>No specified font</h2>
+        🇩🇪 🇫🇷 ❤️ 🏳️‍🌈 😄 🍕 🚀 🐱‍👤 💡 🎉
+
+
+        <h2>FlagsOnly</h2>
+        <p class="flags-only">
+            🇩🇪 🇫🇷 ❤️ 🏳️‍🌈 😄 🍕 🚀 🐱‍👤 💡 🎉
+        </p>
+
+        <h2>WavedFlags</h2>
+        <p class="waved-flags">
+            🇩🇪 🇫🇷 ❤️ 🏳️‍🌈 😄 🍕 🚀 🐱‍👤 💡 🎉
+        </p>
 
     <h2>Twemoji Mozilla (Local)</h2>
     <p class="twemoji-mozilla">
