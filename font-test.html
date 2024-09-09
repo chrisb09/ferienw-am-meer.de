@@ -8,6 +8,13 @@
     <!-- Local Twemoji Mozilla -->
     <style>
 
+
+
+    @font-face {
+            font-family: 'NotoColorEmojiGithub';
+            src: url('https://raw.githubusercontent.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf');
+        }
+
     @font-face {
             font-family: 'FlagsOnly';
             src: url('res/NotoColorEmoji-flagsonly.ttf');
@@ -21,6 +28,11 @@
         @font-face {
             font-family: 'TwemojiMozilla';
             src: url('res/Twemoji.Mozilla/TwemojiMozilla.ttf');
+        }
+
+        /* Google Noto Color Emoji */
+        .noto-color-emoji-github {
+            font-family: 'Noto Color Emoji', 'NotoColorEmojiGithub', sans-serif;
         }
 
         p {
@@ -73,6 +85,10 @@
     <h2>No specified font</h2>
         🇩🇪 🇫🇷 ❤️ 🏳️‍🌈 😄 🍕 🚀 🐱‍👤 💡 🎉
 
+        <h2>NotoColorEmojiGithub (first local)</h2>
+        <p class="noto-color-emoji-github">
+            🇩🇪 🇫🇷 ❤️ 🏳️‍🌈 😄 🍕 🚀 🐱‍👤 💡 🎉
+        </p>
 
         <h2>FlagsOnly</h2>
         <p class="flags-only">
