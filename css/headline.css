@@ -1,22 +1,36 @@
 @font-face {
-    src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2") format("woff2");
+    src: url("../res/MetaVariableDemo-Set.woff2") format("woff2");
     font-family: "Meta";
     font-style: normal;
     font-weight: normal;
 }
 
+.highlight{
+    padding: 0.5vw 0.5vw;
+    border-radius: 0.5vw;
+}
+
+.highlight:hover{
+    transition: all 0.5s;
+    background-color: #cecece;
+}
 
 .headline {
     transition: all 0.5s;
     -webkit-text-stroke: 0.05vw #181b1b;
-    font-variation-settings: "wght" 100, "ital" 0;
+    font-variation-settings: "wght" 200, "ital" 0;
     font-size: 5vw;
     text-align: center;
     color: transparent;
-    font-family: "Meta", sans-serif;
+    font-family: "Meta", 'Segoe UI Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
     text-shadow: none;
     cursor: pointer;
     margin-top: 2vw;
+
+    /* Improve font smoothing */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 .headline:hover {
@@ -25,6 +39,7 @@
     color: white;
 }
 
+
 .headline:after {
     content: ""; /* Add the content for the :after element */
     display: block; /* Or inline, depending on what you need */
@@ -32,6 +47,7 @@
     width: 65%; 
     margin-left: 18.5%;
     height: 0.1vw;
+    min-height: 0.5px;
     background-color: #181b1b;
     margin-top: 0px;
     margin-bottom: 2vw;
@@ -44,43 +60,86 @@
     font-size: calc(3vw);
     text-align: center;
     color: transparent;
-    font-family: "Meta", sans-serif;
+    font-family: "Meta", 'Segoe UI Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
     text-shadow: none;
     cursor: pointer;
+    
+    /* Improve font smoothing */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 .headline-small:hover {
     font-variation-settings: "wght" 500, "ital" 0;
     text-shadow: 0.125vw 0.125vw 0 #5f5f5f;
+    color: white;
 }
 
 .headline-tiny {
     transition: all 0.5s;
     -webkit-text-stroke: 0.05vw #181b1b;
-    font-variation-settings: "wght" 400, "ital" 0;
+    font-variation-settings: "wght" 750, "ital" 0;
     font-size: calc(1.5vw);
     text-align: center;
     color: transparent;
-    font-family: "Meta", sans-serif;
+    font-family: "Meta", 'Segoe UI Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
     text-shadow: none;
     cursor: pointer;
+    
+    /* Improve font smoothing */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 .headline-tiny:hover {
-    font-variation-settings: "wght" 400, "ital" 0;
+    font-variation-settings: "wght" 750, "ital" 0;
     text-shadow: 0.125vw 0.125vw 0 #5f5f5f;
+    color: white;
+}
+
+.headline-mini {
+    transition: all 0.5s;
+    -webkit-text-stroke: 0.05vw #181b1b;
+    font-variation-settings: "wght" 750, "ital" 0;
+    font-size: calc(1.5vw);
+    text-align: center;
+    color: transparent;
+    font-family: "Meta", 'Segoe UI Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+    text-shadow: none;
+    cursor: pointer;
+    
+    /* Improve font smoothing */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.headline-mini:hover {
+    font-variation-settings: "wght" 750, "ital" 0;
+    text-shadow: 0.125vw 0.125vw 0 #5f5f5f;
+    color: white;
 }
 
 
 @media (max-width: 1000px) {
     .headline {
         font-size: calc(8vw);
+        -webkit-text-stroke: 0.1vw #181b1b;
+        font-variation-settings: "wght" 300, "ital" 0;
     }
     .headline-small {
         font-size: calc(6vw);
+        -webkit-text-stroke: 0.1vw #181b1b;
     }
     .headline-tiny {
         font-size: calc(4.5vw);
+        -webkit-text-stroke: 0.1vw #181b1b;
+    }
+    .headline-mini {
+        font-size: 3vw;
+        -webkit-text-stroke: 0.1vw #181b1b;
     }
 
     .headline:after {

@@ -8,6 +8,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    /* background-color: rgba(242,242,242,255); */
 }
 
 a:link, a:visited {
@@ -199,8 +200,8 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
-    padding: 1vw 5vw 1vw 5vw;
+    background-color: white;
+    padding: 1vw 5vw 0vw 5vw;
 }
 
 
@@ -211,6 +212,7 @@ h3 {
     left: 5%;
     top: 5vw;
     height: 0.1vw;
+    min-height: 0.5px;
     width: 90vw;
 }
 
@@ -279,6 +281,11 @@ h3 {
     transition: all 0.3s ease;
 }
 
+.fa-language {
+    padding-top: 0.1vw;
+    padding-bottom: 0.1vw;
+}
+
 /* Mobile View 768px */
 @media (max-width: 1000px) {
 
@@ -307,6 +314,7 @@ h3 {
         left: 5%;
         top: 8vw;
         height: 0.1vw;
+        min-height: 0.5px;
         width: 90vw;
     }
     
@@ -322,7 +330,7 @@ h3 {
         position: fixed;
         left: -40vw;
         top: 8vw; /* Same height as .navbar */
-        height: 50vw; /* Subtract the height of .navbar */
+        /*height: 114vw;  Subtract the height of .navbar */
         width: 40vw;
         background-color: white;
         opacity: 1;
@@ -333,8 +341,9 @@ h3 {
         transition: left 0.3s ease;
         font-size: calc(5vw);
         border-bottom-right-radius: 1vw;
-        border-right: 0.05vw solid black;
-        border-bottom: 0.05vw solid black;
+        border-right: max(0.5px, 0.05vw) solid black;
+        border-bottom: max(0.5px, 0.05vw) solid black;
+        overflow-y: scroll;
     }
 
     .navbar .nav-links.active {
@@ -348,7 +357,7 @@ h3 {
         overflow: hidden;
     }
 
-    .navbar .nav-links li .link-box {
+    .navbar .nav-links li .link-box:not(.language-submenu li .link-box) {
         padding: 0;
         height: 8vw;
         width: 100%;
@@ -361,14 +370,15 @@ h3 {
     }
     
     /* Target all children except the last one */
-    .nav-links > *:not(:last-child):after {
+    .nav-links > *:not(:nth-last-child(-n+2)):after {
     content: ""; /* Add the content for the :after element */
     display: block; /* Or inline, depending on what you need */
     /* Add your desired styles here */
     width: 80%; 
     margin-left: 10%;
     height: 0.1vw;
-    background-color: black;
+    min-height: 0.5px;
+    background-color: #181b1b;
     margin-top: 0px;
 }
 
@@ -407,7 +417,7 @@ h3 {
         margin-left: 0vw;
         margin-bottom: 3vw;
         hyphens: auto;
-        font-size: calc(0px + 3vw);
+        font-size: calc(-1px + 5vw);
     }
     
     .reverse {
