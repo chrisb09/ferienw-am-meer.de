@@ -50,7 +50,7 @@ async function loadTranslations() {
             if (elementId.startsWith('navlink') || elementId === 'logo') {
                 console.log(elementId);
                 console.log(element.style.fontSize);
-                console.log(element.style.fontFamily*scale);
+                console.log(element.style.fontFamily*scaleFactor);
                 console.log("-----");
                 // Apply the scale in vw directly, as specified
                 element.style.fontSize = `${scaleFactor}vw`;
