@@ -39,6 +39,7 @@ async function loadTranslations() {
         // Update the text of elements with class "translateable"
         document.querySelectorAll('.translateable').forEach(element => {
             const elementId = element.id;
+            console.log(elementId);
             
             if (translations[elementId]) {
                 element.textContent = translations[elementId];
