@@ -126,20 +126,20 @@
 @media (max-width: 1000px) {
     .headline {
         font-size: calc(8vw);
-        -webkit-text-stroke: 0.1vw #181b1b;
+        -webkit-text-stroke: 0.15vw #181b1b;
         font-variation-settings: "wght" 300, "ital" 0;
     }
     .headline-small {
         font-size: calc(6vw);
-        -webkit-text-stroke: 0.1vw #181b1b;
+        -webkit-text-stroke: 0.15vw #181b1b;
     }
     .headline-tiny {
-        font-size: calc(4.5vw);
-        -webkit-text-stroke: 0.1vw #181b1b;
+        font-size: calc(7vw);
+        -webkit-text-stroke: 0.15vw #181b1b;
     }
     .headline-mini {
-        font-size: 3vw;
-        -webkit-text-stroke: 0.1vw #181b1b;
+        font-size: 5vw;
+        -webkit-text-stroke: 0.15vw #181b1b;
     }
 
     .headline:after {

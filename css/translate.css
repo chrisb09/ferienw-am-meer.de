@@ -64,12 +64,19 @@
 
 /* Submenu for mobile view */
 @media (max-width: 999px) {
+
+
+    #translate-button {
+        font-size: 7vw;
+        margin-top: 2vw;
+        margin-bottom: 1vw;
+    }
     
     .language-submenu:before {
         content: "";
         display: block;
-        width: 56%;
-        margin-left: 34%;
+        width: 66%;
+        margin-left: 24%;
         height: 0.1vw;
         min-height: 0.5px;
         background-color: black;
@@ -109,8 +116,8 @@
     .language-submenu > *:not(:last-child):after {
         content: "";
         display: block;
-        width: 59%;
-        margin-left: 30%;
+        width: 69%;
+        margin-left: 20%;
         height: 0.1vw;
         min-height: 0.5px;
         background-color: black;

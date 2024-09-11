@@ -328,10 +328,10 @@ h3 {
 
     .navbar .nav-links {
         position: fixed;
-        left: -40vw;
+        left: -60vw;
         top: 8vw; /* Same height as .navbar */
         /*height: 114vw;  Subtract the height of .navbar */
-        width: 40vw;
+        width: 60vw;
         background-color: white;
         opacity: 1;
         z-index: 1000; /* Ensure it’s above other content */
@@ -355,6 +355,7 @@ h3 {
         border: none;
         justify-content: center;
         overflow: hidden;
+        margin-top: 0.5vw;
     }
 
     .navbar .nav-links li .link-box:not(.language-submenu li .link-box) {
