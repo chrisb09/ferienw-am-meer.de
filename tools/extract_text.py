@@ -22,7 +22,7 @@ def extract_translateable_elements(html_content, output_json_file):
             # Get the text content of the element
             element_content = element.get_text(strip=True)
             print(len(element_content), end="")
-            element_content = element_content.replace("\r\n", "").replace("\n", "").replace("­", "")
+            element_content = element_content.replace("\r\n", "").replace("\n", "")
             while "  " in element_content:
                 element_content = element_content.replace("  ", " ")
             print(f" -> {len(element_content)}")
