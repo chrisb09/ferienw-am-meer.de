@@ -95,7 +95,7 @@ h3 {
     line-height: 1;
     z-index: 1;
     text-align: center;
-    font-size: 4vw;
+    font-size: 2vw;
     transform:scale(1,2);
 }
 
@@ -266,8 +266,7 @@ h3 {
     margin-right: 1vw;
     cursor: pointer;
     z-index: 10;
-    margin-right: 20px; /* Adds some space between the hamburger and the logo */
-    border: 2px solid red;
+    margin-right: 1vw; /* Adds some space between the hamburger and the logo */
 }
 
 .navbar .hamburger span {
@@ -331,6 +330,7 @@ h3 {
         left: -60vw;
         top: 8vw; /* Same height as .navbar */
         /*height: 114vw;  Subtract the height of .navbar */
+        max-height: 100vh;
         width: 60vw;
         background-color: white;
         opacity: 1;
@@ -354,13 +354,13 @@ h3 {
         width: 100%;
         border: none;
         justify-content: center;
-        overflow: hidden;
+        overflow: visible;
         margin-top: 0.5vw;
     }
 
     .navbar .nav-links li .link-box:not(.language-submenu li .link-box) {
         padding: 0;
-        height: 8vw;
+        height: 9vw;
         width: 100%;
         text-align: center;
     }
@@ -436,4 +436,21 @@ h3 {
         margin-right: 0vw;
     }
     
+    .scroll-button {
+        width: 10vw;
+        top: 50%;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        background: none;
+        border: none;
+        color: rgba(127, 127, 127, 0.8);
+        cursor: pointer;
+        font-stretch: ultra-condensed;
+        line-height: 1;
+        z-index: 1;
+        text-align: center;
+        font-size: 8vw;
+        transform:scale(1,2);
+    }
+
 }

@@ -69,7 +69,9 @@
     #translate-button {
         font-size: 7vw;
         margin-top: 2vw;
-        margin-bottom: 1vw;
+        margin-bottom: 0vw;
+        padding-bottom: 0vw;
+        overflow: hidden;
     }
     
     .language-submenu:before {
