@@ -48,12 +48,13 @@ async function loadTranslations() {
 
             // Apply scaling to elements with IDs starting with 'navlink' or exactly equal to 'logo'
             if (elementId.startsWith('navlink') || elementId === 'logo') {
-                console.log(elementId);
-                console.log(element.style.fontSize);
-                console.log(element.style.fontSize*scaleFactor);
-                console.log("-----");
                 // Apply the scale in vw directly, as specified
-                element.style.fontSize = `${scaleFactor}vw`;
+                var style = window.getComputedStyle(element, null).getPropertyValue('font-size');
+                console.log(elementId);
+                console.log(style);
+                var fontSize = parseFloat(style); 
+                console.log(fontSize);
+                element.style.fontSize = `${1.5*scaleFactor}vw`;
             }
         });
 
