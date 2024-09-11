@@ -39,7 +39,6 @@ async function loadTranslations() {
         // Update the text of elements with class "translateable"
         document.querySelectorAll('.translateable').forEach(element => {
             const elementId = element.id;
-            console.log(elementId);
             
             if (translations[elementId]) {
                 element.textContent = translations[elementId];
@@ -50,6 +49,9 @@ async function loadTranslations() {
             // Apply scaling to elements with IDs starting with 'navlink' or exactly equal to 'logo'
             if (elementId.startsWith('navlink') || elementId === 'logo') {
                 console.log(elementId);
+                console.log(element.style.fontSize);
+                console.log(element.style.fontFamily*scale);
+                console.log("-----");
                 // Apply the scale in vw directly, as specified
                 element.style.fontSize = `${scaleFactor}vw`;
             }
