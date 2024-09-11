@@ -1,5 +1,6 @@
 {
-    "title": "Apartamenty \"Nad Morzem\" - Bad Zwischenahn",
+    "scale": 0.9285714285714286,
+    "title": "Apartamenty „Nad Morzem“ - Bad Zwischenahn",
     "logo": "Apartamenty „Nad Morzem“",
     "navlink_wohnung_105": "Mieszkanie 105",
     "navlink_wohnung_106": "Mieszkanie 106",
@@ -7,16 +8,16 @@
     "navlink_freizeit": "Czas wolny",
     "navlink_kontakt": "Kontakt i Ceny",
     "headline_wohnung_105": "Mieszkanie 105",
-    "wohnzimmer_01_h3": "Sal­on z wid­okiem na jez­ioro",
-    "wohnzimmer_01_p": "Przestronny salon zaprasza do relaksu. Dzięki dużym oknom można cieszyć się jasnym, otwartym wnętrzem z pięknym widokiem na jezioro. Tutaj można usiąść z filiżanką kawy, marzyć i po prostu odprężyć się. Dla Państwa bezpieczeństwa i ochrony wartościowych rzeczy w pomieszczeniu znajduje się sejf.",
+    "wohnzimmer_01_h3": "Salon z widokiem na jezioro",
+    "wohnzimmer_01_p": "Przestronny salon zaprasza do relaksu. Dzięki dużym oknom cieszy­cie się jasnym, otwartym ambien­tem z pięknym widokiem na jezioro. Tutaj możecie usiąść z filiżanką kawy, marzyć i po prostu odprężyć się. Dla Waszego bezpieczeństwa oraz ochrony wartości­owych przedmiotów w salonie zainstalowano sejf.",
     "wohnzimmer_02_h3": "W pełni wy­posażona kuchnia",
-    "wohnzimmer_02_p": "Są­siednia kuchen­ka ofe­ruje wszystko, co nie­zbędne do przy­go­towania posiłków. Wy­posażona w lodówkę, palnik elektryczny z 4 płyta­mi, zmywarkę, mikrofalówkę, piekarnik oraz prak­tyczne urządze­nia, takie jak ekspres do kawy, czajnik, gotowacz do jajek i toster, jest idealnie dostosowana do komfortowego gotowania i przyjemności.",
-    "wohnzimmer_03_h3": "Ess­bereich i Unter­haltung",
-    "wohnzimmer_03_p": "W czę­ści jadal­nej ocze­kuje Cię przy­tulny stół jadal­ny z trzema krze­śla­mi, ideal­ny do wspól­nych posił­ków. Prze­su­wana wy­spa między czę­ścią ży­ciową a jadal­nią zapew­nia dodat­kową elastycz­ność. Na rozrywkę również jest zadba­ne: dostępny jest odtwar­zacz stereo­fonicz­ny z radio­odbior­nikiem, odtwar­zaczem CD i magneto­fonem, a także tele­wizja kablo­wa, książ­ki, czasop­isma i gry towa­rzyskie. Tutaj możesz cieszyć się posił­kami i jed­nocze­śnie zapew­nić sobie rozrywkę.",
+    "wohnzimmer_02_p": "Sąsiadujący kącik ku­chenny oferuje wszystko, co jest potrzeb­ne do przy­go­towania posiłków. Wyposażony w lodówkę, kuchnię z czterema płytami, zmywarkę, mikrofalówkę, piekarnik oraz praktyczne urządzenia jak ekspres do kawy, czajnik, gotowacz do jajek i toster, jesteś dosko­nale przygotowany do kom­fortowego gotowa­nia i delektowania się posiłkami.",
+    "wohnzimmer_03_h3": "Ess­bereich i roz­rywka",
+    "wohnzimmer_03_p": "W strefie jed­zenia czeka na Cie­bie przytulny stół jed­zeniowy z trzema krze­ sofa­mi, doskonały na wspólne posiłki. Przesu­wana lada między strefą mieszkalną a jadalnią zapewnia dodatkową elastycz­ność. Zadbano również o roz­rywkę: dostępne są radio­odtwarzacz, odtwarzacz CD oraz magnetofon, a także telewizja kablowa, ksią­żki, czasopisma i gry towarzyskie. Tutaj możesz cieszyć się posiłkami oraz jednocześnie zapewnić sobie ab­so­lutną roz­rywkę.",
     "schlafzimmer_01_h3": "Sypialnia",
     "schlafzimmer_01_p": "Opis sypialni.",
-    "badezimmer_01_h3": "łazienka",
+    "badezimmer_01_h3": "Łazienka",
     "badezimmer_01_p": "Opis łazienki.",
     "balkon_01_p": "Balkon",
-    "grundriss_01_p": "Plan budynku"
+    "grundriss_01_p": "Plan piętra"
 }

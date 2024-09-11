@@ -33,13 +33,23 @@ async function loadTranslations() {
         // Parse the JSON data
         const translations = await response.json();
 
+        // Check if the JSON contains a 'scale' value (in vw)
+        const scaleFactor = translations.scale || 1.0;  // Default scale is 1.0 vw if not provided
+
         // Update the text of elements with class "translateable"
         document.querySelectorAll('.translateable').forEach(element => {
             const elementId = element.id;
+            
             if (translations[elementId]) {
                 element.textContent = translations[elementId];
             } else {
                 console.warn(`No translation found for ID: ${elementId}`);
+            }
+
+            // Apply scaling to elements with IDs starting with 'navlink' or exactly equal to 'logo'
+            if (elementId.startsWith('navlink') || elementId === 'logo') {
+                // Apply the scale in vw directly, as specified
+                element.style.fontSize = `${scaleFactor}vw`;
             }
         });
 

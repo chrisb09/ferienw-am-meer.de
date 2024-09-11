@@ -24,6 +24,11 @@ def translate_content(json_file, language, output_file, openai_api_key):
 
     # Dictionary to hold the translated content
     translations = {}
+    
+    translations["scale"] = 1.0
+    
+    original_navbar_size = sum([len(data[x]) for x in filter(lambda y: y.startswith("navlink") or y == "logo", data.keys())])
+    translated_navbar_size = 0
 
     # Iterate over each id and content in the JSON
     for element_id, text in data.items():
@@ -49,13 +54,16 @@ def translate_content(json_file, language, output_file, openai_api_key):
 
             # Save the translated text to the dictionary
             translations[element_id] = translated_text.strip()
+            if element_id.startswith("navlink") or element_id == "logo":
+                translated_navbar_size += len(translations[element_id])
+            #translations["scale"] = min(translations["scale"], len(text)/len(translated_text))
 
             print(f"  translated {element_id}")
 
         except Exception as e:
             print(f"  error translating {element_id}: {e}")
             translations[element_id] = None
-
+    translations["scale"] = original_navbar_size / translated_navbar_size
     # Save the translations to a new JSON file
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(translations, f, ensure_ascii=False, indent=4)
