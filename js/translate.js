@@ -7,6 +7,11 @@ function getUrlParameter(name) {
 
 // Popup translations for supported languages
 const popupTranslations = {
+    de: {
+        message: "Es scheint, als würdest du die folgende Sprache nutzen: ",
+        switch: "Sprache wechseln",
+        stay: "Die aktuelle Sprache beibehalten"
+    },
     en: {
         message: "We detected your browser language as ",
         switch: "Switch Language",
@@ -62,7 +67,7 @@ const popupTranslations = {
 // Function to detect browser language and handle language switch popup
 function detectBrowserLanguage() {
     const browserLang = navigator.language.slice(0, 2); // Get the first two characters of the browser language
-    const supportedLangs = ['en', 'fr', 'es', 'pt', 'nl', 'uk', 'tr', 'it', 'pl', 'da'];
+    const supportedLangs = ['de', 'en', 'fr', 'es', 'pt', 'nl', 'uk', 'tr', 'it', 'pl', 'da'];
     
     let langToUse = supportedLangs.includes(browserLang) ? browserLang : 'en'; // Use detected lang if supported, otherwise default to English
 
@@ -98,6 +103,8 @@ function showLanguagePopup(lang) {
     // Add an event listener to close the popup if the user chooses to stay with the current language
     closePopupBtn.addEventListener('click', () => {
         popup.style.display = 'none'; // Hide the popup
+        const newUrl = `${window.location.pathname}?lang=de`;
+        window.location.href = newUrl;
     });
 }
 
