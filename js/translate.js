@@ -77,6 +77,10 @@ function detectBrowserLanguage() {
 
 // Function to show a language switch popup using an HTML element
 function showLanguagePopup(lang) {
+    if (lang == "de"){
+        const newUrl = `${window.location.pathname}?lang=${lang}`;
+        window.location.href = newUrl;
+    }
     const popup = document.getElementById('language-popup');
     const message = document.getElementById('language-message');
     const switchLangBtn = document.getElementById('switch-lang-btn');
