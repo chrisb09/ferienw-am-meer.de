@@ -80,6 +80,7 @@ function showLanguagePopup(lang) {
     if (lang == "de"){
         const newUrl = `${window.location.pathname}?lang=${lang}`;
         window.location.href = newUrl;
+        return;
     }
     const popup = document.getElementById('language-popup');
     const message = document.getElementById('language-message');
