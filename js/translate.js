@@ -118,13 +118,10 @@ function updateNavlinkLogoScale(translations, scaleFactor) {
         if (elementId.startsWith('navlink') || elementId === 'logo') {
             // Get the computed style in pixels
             var style = window.getComputedStyle(element, null).getPropertyValue('font-size');
-            console.log(elementId);
             var fontSizePx = parseFloat(style);
 
             // Convert px to vw
             var vw = (fontSizePx / window.innerWidth) * 100;
-            console.log(`Converted to vw: ${vw}vw`);
-            console.log(`scale: ${scaleFactor}`);
 
             // Apply the new font size in vw
             element.style.fontSize = `${vw * scaleFactor}vw`;
@@ -176,11 +173,6 @@ async function loadTranslations() {
 
         // Apply scaling to navlink and logo elements
         updateNavlinkLogoScale(translations, scaleFactor);
-
-        // Listen for window resize and update the scaling
-        window.addEventListener('resize', () => {
-            updateNavlinkLogoScale(translations, scaleFactor);
-        });
 
     } catch (error) {
         console.error('Error loading translations:', error);
