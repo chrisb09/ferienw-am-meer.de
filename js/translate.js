@@ -52,14 +52,12 @@ async function loadTranslations() {
                 // Get the computed style in pixels
                 var style = window.getComputedStyle(element, null).getPropertyValue('font-size');
                 console.log(elementId);
-                console.log(style);
-                
                 var fontSizePx = parseFloat(style); 
-                console.log(fontSizePx);
                 
                 // Convert px to vw
                 var vw = (fontSizePx / window.innerWidth) * 100;
                 console.log(`Converted to vw: ${vw}vw`);
+                console.log(`scale: ${scaleFactor}`);
                 
                 // Apply the new font size in vw
                 element.style.fontSize = `${vw * scaleFactor}vw`;
