@@ -68,7 +68,7 @@ const popupTranslations = {
 function detectBrowserLanguage() {
     const browserLang = navigator.language.slice(0, 2); // Get the first two characters of the browser language
     const supportedLangs = ['de', 'en', 'fr', 'es', 'pt', 'nl', 'uk', 'tr', 'it', 'pl', 'da'];
-    
+
     let langToUse = supportedLangs.includes(browserLang) ? browserLang : 'en'; // Use detected lang if supported, otherwise default to English
 
     // Show popup with the correct language
@@ -77,40 +77,37 @@ function detectBrowserLanguage() {
 
 // Function to show a language switch popup using an HTML element
 function showLanguagePopup(lang) {
-    if (lang == "de"){
-        const newUrl = `${window.location.pathname}?lang=${lang}`;
-        window.location.href = newUrl;
-        return;
+    if (lang != "de") {
+        const popup = document.getElementById('language-popup');
+        const message = document.getElementById('language-message');
+        const switchLangBtn = document.getElementById('switch-lang-btn');
+        const closePopupBtn = document.getElementById('close-popup-btn');
+
+        // Use translations based on the detected language or default to English
+        const translations = popupTranslations[lang] || popupTranslations['en'];
+
+        // Update the message and button text in the popup
+        message.textContent = `${translations.message}${lang.toUpperCase()}. Would you like to switch to this language?`;
+        switchLangBtn.textContent = translations.switch;
+        closePopupBtn.textContent = translations.stay;
+
+        // Set the event listener for switching the language
+        switchLangBtn.addEventListener('click', () => {
+            // Reload page with the selected language
+            const newUrl = `${window.location.pathname}?lang=${lang}`;
+            window.location.href = newUrl;
+        });
+
+        // Show the popup
+        popup.style.display = 'flex';
+
+        // Add an event listener to close the popup if the user chooses to stay with the current language
+        closePopupBtn.addEventListener('click', () => {
+            popup.style.display = 'none'; // Hide the popup
+            const newUrl = `${window.location.pathname}?lang=de`;
+            window.location.href = newUrl;
+        });
     }
-    const popup = document.getElementById('language-popup');
-    const message = document.getElementById('language-message');
-    const switchLangBtn = document.getElementById('switch-lang-btn');
-    const closePopupBtn = document.getElementById('close-popup-btn');
-    
-    // Use translations based on the detected language or default to English
-    const translations = popupTranslations[lang] || popupTranslations['en'];
-
-    // Update the message and button text in the popup
-    message.textContent = `${translations.message}${lang.toUpperCase()}. Would you like to switch to this language?`;
-    switchLangBtn.textContent = translations.switch;
-    closePopupBtn.textContent = translations.stay;
-
-    // Set the event listener for switching the language
-    switchLangBtn.addEventListener('click', () => {
-        // Reload page with the selected language
-        const newUrl = `${window.location.pathname}?lang=${lang}`;
-        window.location.href = newUrl;
-    });
-
-    // Show the popup
-    popup.style.display = 'flex';
-
-    // Add an event listener to close the popup if the user chooses to stay with the current language
-    closePopupBtn.addEventListener('click', () => {
-        popup.style.display = 'none'; // Hide the popup
-        const newUrl = `${window.location.pathname}?lang=de`;
-        window.location.href = newUrl;
-    });
 }
 
 // Function to update the scale for navlink and logo elements
@@ -122,13 +119,13 @@ function updateNavlinkLogoScale(translations, scaleFactor) {
             // Get the computed style in pixels
             var style = window.getComputedStyle(element, null).getPropertyValue('font-size');
             console.log(elementId);
-            var fontSizePx = parseFloat(style); 
-            
+            var fontSizePx = parseFloat(style);
+
             // Convert px to vw
             var vw = (fontSizePx / window.innerWidth) * 100;
             console.log(`Converted to vw: ${vw}vw`);
             console.log(`scale: ${scaleFactor}`);
-            
+
             // Apply the new font size in vw
             element.style.fontSize = `${vw * scaleFactor}vw`;
         }
@@ -139,10 +136,10 @@ function updateNavlinkLogoScale(translations, scaleFactor) {
 async function loadTranslations() {
     // Get the language code from the URL parameter
     const langCode = getUrlParameter('lang');
-    
+
     // Define the supported country codes
     const supportedLangs = ['en', 'fr', 'es', 'pt', 'nl', 'uk', 'tr', 'it', 'pl', 'da'];
-    
+
     // Check if the language code is supported
     if (!supportedLangs.includes(langCode) && langCode !== 'de') {
         detectBrowserLanguage();
@@ -155,7 +152,7 @@ async function loadTranslations() {
     try {
         // Fetch the JSON file
         const response = await fetch(jsonFilePath);
-        
+
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
@@ -169,7 +166,7 @@ async function loadTranslations() {
         // Update the text of elements with class "translateable"
         document.querySelectorAll('.translateable').forEach(element => {
             const elementId = element.id;
-            
+
             if (translations[elementId]) {
                 element.textContent = translations[elementId];
             } else {
