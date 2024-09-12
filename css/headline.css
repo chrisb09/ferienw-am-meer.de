@@ -16,6 +16,8 @@
 }
 
 .headline {
+    white-space: nowrap;
+    overflow: hidden;
     transition: all 0.5s;
     -webkit-text-stroke: 0.05vw #181b1b;
     font-variation-settings: "wght" 200, "ital" 0;
@@ -54,6 +56,8 @@
 }
 
 .headline-small {
+    white-space: nowrap;
+    overflow: hidden;
     transition: all 0.5s;
     -webkit-text-stroke: 0.05vw #181b1b;
     font-variation-settings: "wght" 500, "ital" 0;
@@ -77,6 +81,8 @@
 }
 
 .headline-tiny {
+    white-space: nowrap;
+    overflow: hidden;
     transition: all 0.5s;
     -webkit-text-stroke: 0.05vw #181b1b;
     font-variation-settings: "wght" 750, "ital" 0;
@@ -100,6 +106,8 @@
 }
 
 .headline-mini {
+    white-space: nowrap;
+    overflow: hidden;
     transition: all 0.5s;
     -webkit-text-stroke: 0.05vw #181b1b;
     font-variation-settings: "wght" 750, "ital" 0;
