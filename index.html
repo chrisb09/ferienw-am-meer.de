@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/translate.css">
+    <link rel="stylesheet" href="css/translate-dialogue.css">
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/headline.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -27,6 +28,13 @@
 </head>
 
 <body>
+    <div id="language-popup" class="popup-overlay" style="display: none;">
+        <div class="popup-content">
+            <p id="language-message">We detected your browser language. Would you like to switch?</p>
+            <button id="switch-lang-btn">Switch Language</button>
+            <button id="close-popup-btn">Stay in Current Language</button>
+        </div>
+    </div>    
     <nav class="navbar">
         <a href="#">
             <div class="logo headline-small translateable" id="logo">Ferienwohnungen „Am Meer“</div>
