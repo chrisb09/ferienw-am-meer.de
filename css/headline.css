@@ -131,7 +131,7 @@
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 767px) {
     .headline {
         font-size: calc(8vw);
         -webkit-text-stroke: 0.15vw #181b1b;

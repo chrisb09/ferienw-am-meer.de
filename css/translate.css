@@ -12,14 +12,14 @@
 
 
 /* Submenu for desktop view */
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
 
     #translate-button {
         font-size: 2vw;
     }
 
     .language-submenu {
-        top: 5vw;
+        top: 4vw;
         right: 0;
         width: 13vw;
         border-bottom-left-radius: 1vw;
@@ -63,7 +63,7 @@
 }
 
 /* Submenu for mobile view */
-@media (max-width: 999px) {
+@media (max-width: 767px) {
 
 
     #translate-button {

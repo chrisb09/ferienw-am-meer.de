@@ -11,9 +11,12 @@ body {
     /* background-color: rgba(242,242,242,255); */
 }
 
-a:link, a:visited {
-    color: inherit; /* Inherits the color from its parent, disabling the default color change */
-    text-decoration: none; /* Removes the underline */
+a:link,
+a:visited {
+    color: inherit;
+    /* Inherits the color from its parent, disabling the default color change */
+    text-decoration: none;
+    /* Removes the underline */
 }
 
 h2 {
@@ -28,10 +31,11 @@ h3 {
 
 .shadow-image {
     box-shadow: 0.5vw 0.5vw 1vw rgba(0, 0, 0, 0.5);
-    border-radius: 1vw; /* Optional: Adds rounded corners */
+    border-radius: 1vw;
+    /* Optional: Adds rounded corners */
 }
 
-.outer-scroll-container{
+.outer-scroll-container {
     position: relative;
     width: 70%;
     overflow: hidden;
@@ -57,17 +61,21 @@ h3 {
 .scroll-content {
     display: flex;
     overflow-x: scroll;
-    scroll-snap-type: x mandatory; /* Enable vertical snap scrolling */
+    scroll-snap-type: x mandatory;
+    /* Enable vertical snap scrolling */
     scroll-behavior: smooth;
-    scrollbar-width: none; /* Hide scrollbar in Firefox */
+    scrollbar-width: none;
+    /* Hide scrollbar in Firefox */
 }
 
 .scroll-content::-webkit-scrollbar {
-    display: none; /* Hide scrollbar in WebKit browsers */
+    display: none;
+    /* Hide scrollbar in WebKit browsers */
 }
 
 .scroll-item {
-    scroll-snap-align: start; /* Snap to the start of each item */
+    scroll-snap-align: start;
+    /* Snap to the start of each item */
     flex-shrink: 0;
     text-align: center;
     width: 100%;
@@ -96,7 +104,7 @@ h3 {
     z-index: 1;
     text-align: center;
     font-size: 2vw;
-    transform:scale(1,2);
+    transform: scale(1, 2);
 }
 
 .scroll-button.left::before {
@@ -124,23 +132,29 @@ h3 {
 .content-grid {
     overflow: visible;
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
-    gap: 2%; /* Space between the image and the text */
-    align-items: center; /* Align items to the center vertically */
+    grid-template-columns: 1fr 1fr;
+    /* Two equal columns */
+    gap: 2%;
+    /* Space between the image and the text */
+    align-items: center;
+    /* Align items to the center vertically */
 }
 
 .content-grid img {
     width: calc(99%);
     border-radius: 1vw;
-    object-fit: cover; /* Ensure image covers its box without distortion */
+    object-fit: cover;
+    /* Ensure image covers its box without distortion */
 }
 
 .text-content {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center text vertically */
-    text-align: justify; /* Justify text */
+    justify-content: center;
+    /* Center text vertically */
+    text-align: justify;
+    /* Justify text */
     margin-right: 1vw;
     margin-left: 1vw;
     hyphens: auto;
@@ -148,15 +162,21 @@ h3 {
 }
 
 .reverse {
-    grid-template-columns: 1fr 1fr; /* Same two-column layout */
-    direction: rtl; /* Reverse the grid direction */
+    grid-template-columns: 1fr 1fr;
+    /* Same two-column layout */
+    direction: rtl;
+    /* Reverse the grid direction */
 }
 
 .reverse .text-content {
-    align-self: center; /* Center the text box vertically */
-    text-align: justify; /* Ensure text is justified */
-    direction: ltr; /* Override RTL for the text */
-    margin-left: 0; /* Remove margin to align text box */
+    align-self: center;
+    /* Center the text box vertically */
+    text-align: justify;
+    /* Ensure text is justified */
+    direction: ltr;
+    /* Override RTL for the text */
+    margin-left: 0;
+    /* Remove margin to align text box */
     margin-right: 1vw;
 }
 
@@ -198,10 +218,11 @@ h3 {
 
 .navbar {
     display: flex;
+    overflow-y: visible;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 1vw 5vw 0vw 5vw;
+    padding: 0vw 5vw 0vw 5vw;
 }
 
 
@@ -210,7 +231,7 @@ h3 {
     background: #181b1b;
     position: absolute;
     left: 5%;
-    top: 5vw;
+    top: 4vw;
     height: 0.1vw;
     min-height: 0.5px;
     width: 90vw;
@@ -239,8 +260,10 @@ h3 {
     background-color: transparent;
     border-radius: 5px;
     display: flex;
-    align-items: center; /* Vertically centers the content */
-    justify-content: center; /* Horizontally centers the content (optional) */
+    align-items: center;
+    /* Vertically centers the content */
+    justify-content: center;
+    /* Horizontally centers the content (optional) */
     transition: background 0.3s ease;
 }
 
@@ -251,8 +274,10 @@ h3 {
 .navbar .nav-links .link-box a {
     color: black;
     text-decoration: none;
-    padding: 0 0.5vw; /* Add padding for better spacing */
-    display: inline-block; /* Ensures the anchor respects the flexbox alignment */
+    padding: 0 0.5vw;
+    /* Add padding for better spacing */
+    display: inline-block;
+    /* Ensures the anchor respects the flexbox alignment */
 }
 
 .navbar .hamburger {
@@ -266,7 +291,8 @@ h3 {
     margin-right: 1vw;
     cursor: pointer;
     z-index: 10;
-    margin-right: 1vw; /* Adds some space between the hamburger and the logo */
+    margin-right: 1vw;
+    /* Adds some space between the hamburger and the logo */
 }
 
 .navbar .hamburger span {
@@ -285,13 +311,38 @@ h3 {
     padding-bottom: 0.1vw;
 }
 
-/* Mobile View 768px */
-@media (max-width: 1000px) {
+@media (min-width: 768px) {
+    #top_spacer {
+        top: 0;
+        left: 0;
+        width: 100vw;
+        position: relative;
+        height: calc(4vw + max(0.1vw, 0.5px));
+        z-index: -1;
+    }
+    .navbox {
+        position: fixed;
+        overflow: visible;
+        z-index: 10;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+    }
+    .navbar {
+        position: relative;
+        overflow: visible;
+        z-index: 100;
+    }
+}
 
-    .outer-scroll-container{
+/* Mobile View 768px */
+@media (max-width: 767px) {
+
+    .outer-scroll-container {
         width: 100%;
     }
-    
+
     .scroll-container {
         position: relative;
         width: calc(100% - 0vw);
@@ -299,10 +350,28 @@ h3 {
         transform: translateX(-50%);
     }
 
+
+    #top_spacer {
+        top: 0;
+        left: 0;
+        width: 100vw;
+        position: relative;
+        height: 0px;
+        z-index: -1;
+    }
+    .navbox {
+        position: relative;
+        overflow: visible;
+        z-index: 10;
+    }
+
     .navbar {
+        position: relative;
         padding-left: 0;
-        height: 8vw; /* Adjust this as needed */
-        justify-content: flex-start; /* Align content to the left */
+        height: calc(8.1vw + 0.5px);
+        /* Adjust this as needed */
+        justify-content: flex-start;
+        /* Align content to the left */
         overflow: visible;
     }
 
@@ -316,7 +385,7 @@ h3 {
         min-height: 0.5px;
         width: 90vw;
     }
-    
+
     .navbar .logo {
         font-size: calc(6.5vw - 3px);
         margin-left: 0px;
@@ -328,13 +397,15 @@ h3 {
     .navbar .nav-links {
         position: fixed;
         left: -60vw;
-        top: 8vw; /* Same height as .navbar */
+        top: 8vw;
+        /* Same height as .navbar */
         /*height: 114vw;  Subtract the height of .navbar */
         max-height: 100vh;
         width: 60vw;
         background-color: white;
         opacity: 1;
-        z-index: 1000; /* Ensure it’s above other content */
+        z-index: 1000;
+        /* Ensure it’s above other content */
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
@@ -369,24 +440,27 @@ h3 {
         display: block;
         width: 100%;
     }
-    
+
     /* Target all children except the last one */
-    .nav-links > *:not(:nth-last-child(-n+2)):after {
-    content: ""; /* Add the content for the :after element */
-    display: block; /* Or inline, depending on what you need */
-    /* Add your desired styles here */
-    width: 80%; 
-    margin-left: 10%;
-    height: 0.1vw;
-    min-height: 0.5px;
-    background-color: #181b1b;
-    margin-top: 0px;
-}
+    .nav-links>*:not(:nth-last-child(-n+2)):after {
+        content: "";
+        /* Add the content for the :after element */
+        display: block;
+        /* Or inline, depending on what you need */
+        /* Add your desired styles here */
+        width: 80%;
+        margin-left: 10%;
+        height: 0.1vw;
+        min-height: 0.5px;
+        background-color: #181b1b;
+        margin-top: 0px;
+    }
 
     .navbar .hamburger {
         display: flex;
         margin-right: 10px;
-        order: -1; /* Move hamburger to the left of the logo */
+        order: -1;
+        /* Move hamburger to the left of the logo */
     }
 
 
@@ -403,39 +477,46 @@ h3 {
     .content-grid {
         overflow: visible;
         display: grid;
-        grid-template-columns: 1fr; /* Two equal columns */
-        align-items: center; /* Align items to the center vertically */
+        grid-template-columns: 1fr;
+        /* Two equal columns */
+        align-items: center;
+        /* Align items to the center vertically */
     }
-    
+
     .content-grid img {
         width: calc(100%);
     }
-    
+
     .text-content {
         height: 100%;
-        text-align: justify; /* Justify text */
+        text-align: justify;
+        /* Justify text */
         margin-right: 0vw;
         margin-left: 0vw;
         margin-bottom: 3vw;
         hyphens: auto;
         font-size: calc(-1px + 5vw);
     }
-    
+
     .reverse {
-        grid-template-columns: 1fr; /* Same two-column layout */
-        direction: rtl; /* Reverse the grid direction */
+        grid-template-columns: 1fr;
+        /* Same two-column layout */
+        direction: rtl;
+        /* Reverse the grid direction */
     }
-    
+
     .reverse .text-content {
-        direction: ltr; /* Override RTL for the text */
-        margin-left: 0; /* Remove margin to align text box */
+        direction: ltr;
+        /* Override RTL for the text */
+        margin-left: 0;
+        /* Remove margin to align text box */
         margin-right: 0vw;
     }
-    
+
     .reverse img {
         margin-right: 0vw;
     }
-    
+
     .scroll-button {
         width: 10vw;
         top: 50%;
@@ -450,7 +531,7 @@ h3 {
         z-index: 1;
         text-align: center;
         font-size: 8vw;
-        transform:scale(1,2);
+        transform: scale(1, 2);
     }
 
 }
