@@ -11,7 +11,7 @@ function loadCustomFont() {
     const fontFaceRule = `
         @font-face {
             font-family: 'FlagsOnly';
-            src: url('../res/NotoColorEmoji-flagsonly.ttf') format('truetype');
+            src: url('res/NotoColorEmoji-flagsonly.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
         }
