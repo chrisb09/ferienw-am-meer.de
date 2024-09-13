@@ -180,8 +180,6 @@ h3 {
     margin-right: 1vw;
 }
 
-
-
 .reverse img {
     margin-right: 1vw;
 }
@@ -190,6 +188,42 @@ h3 {
     text-align: center;
 }
 
+.content-grid img {
+    height: auto; /* This ensures the aspect ratio is preserved */
+    /* Alternatively, you can set a specific aspect ratio if needed */
+    aspect-ratio: 1304 / 921; /* This will keep the image's aspect ratio */
+}
+
+.content-solo img {
+    height: auto; /* This ensures the aspect ratio is preserved */
+    /* Alternatively, you can set a specific aspect ratio if needed */
+    aspect-ratio: 1304 / 921; /* This will keep the image's aspect ratio */
+}
+
+.content-solo {
+    position: relative;
+    overflow: visible;
+    border: 2px solid red;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content-solo .solo {
+    border: 2px solid green;
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 1vw;
+    box-shadow: 0vw 0.5vw 1vw rgba(0, 0, 0, 0.2);
+}
+
+.content-solo .text-content {
+    position: relative;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 .pagination-dots {
     text-align: center;
@@ -501,7 +535,7 @@ h3 {
     }
 
     .content-grid img {
-        width: calc(100%);
+        max-width: 100%;
     }
 
     .text-content {
