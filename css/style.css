@@ -314,11 +314,23 @@ h3 {
 @media (min-width: 768px) {
     #top_spacer {
         top: 0;
-        left: 0;
-        width: 100vw;
-        position: relative;
-        height: calc(4vw + max(0.1vw, 0.5px));
+        left: 5vw;
+        width: 90vw;
+        position: fixed;
+        height: 4vw;
         z-index: -1;
+        background-color: red;
+        box-shadow: 0vw 0.5vw 1vw rgba(0, 0, 0, 0.2);
+        border-radius: 1vw;
+    }
+
+    section::before {
+        display: block;
+        content: "";
+        position: relative;
+        background: transparent;
+        width: 100vw;
+        height: calc(4vw + max(0.1vw, 0.5px));
     }
     .navbox {
         position: fixed;
@@ -326,10 +338,13 @@ h3 {
         z-index: 10;
         width: 100vw;
         height: 100vh;
+        z-index: 10;
+        pointer-events: none;
         top: 0;
         left: 0;
     }
     .navbar {
+        pointer-events: visible;
         position: relative;
         overflow: visible;
         z-index: 100;
@@ -360,12 +375,14 @@ h3 {
         z-index: -1;
     }
     .navbox {
+        pointer-events: none;
         position: relative;
         overflow: visible;
         z-index: 10;
     }
 
     .navbar {
+        pointer-events: visible;
         position: relative;
         padding-left: 0;
         height: calc(8.1vw + 0.5px);
