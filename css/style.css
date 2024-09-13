@@ -118,15 +118,6 @@ h3 {
     color: rgba(127, 127, 127, 0.7);
 }
 
-.scroll-button:hover {
-    transition: 0.5s;
-    color: black;
-}
-
-.scroll-button.inactive {
-    color: rgba(127, 127, 127, 0.2);
-}
-
 .scroll-button.left {
     left: 0px;
 }
@@ -590,4 +581,13 @@ h3 {
         transform: scale(1, 2);
     }
 
+}
+
+.scroll-button:hover {
+    transition: 0.5s;
+    color: black;
+}
+
+.scroll-button.inactive {
+    color: rgba(127, 127, 127, 0.2);
 }
