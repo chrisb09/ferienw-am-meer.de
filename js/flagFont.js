@@ -22,9 +22,9 @@ function loadCustomFont() {
     styleElement.innerHTML = fontFaceRule;
     document.head.appendChild(styleElement);
 
-    // Define the rule to apply the new font stack to .headline-small
+    // Define the rule to apply the new font stack to .headline-mini
     const headlineFontRule = `
-        .headline-small {
+        .headline-mini {
             font-family: "FlagsOnly", "Meta", 'Segoe UI Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
         }
     `;
