@@ -89,6 +89,7 @@ h3 {
 }
 
 .scroll-button {
+    transition: 0.25s;
     position: absolute;
     width: 5vw;
     top: 50%;
@@ -117,8 +118,13 @@ h3 {
     color: rgba(127, 127, 127, 0.7);
 }
 
-.scroll-button:hover::before {
-    color: rgba(0, 0, 0, 0.7);
+.scroll-button:hover {
+    transition: 0.5s;
+    color: black;
+}
+
+.scroll-button.inactive {
+    color: rgba(127, 127, 127, 0.2);
 }
 
 .scroll-button.left {
@@ -243,7 +249,7 @@ h3 {
 }
 
 .dot.active {
-    background-color: red;
+    background-color: black;
 }
 
 .bottom-border {
@@ -575,7 +581,6 @@ h3 {
         padding-bottom: 2vw;
         background: none;
         border: none;
-        color: rgba(127, 127, 127, 0.8);
         cursor: pointer;
         font-stretch: ultra-condensed;
         line-height: 1;

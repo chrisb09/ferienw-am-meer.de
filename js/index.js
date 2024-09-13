@@ -79,6 +79,10 @@ function updateActiveDot(sectionId, index) {
     dots.forEach((dot, i) => {
         dot.classList.toggle('active', i === index);
     });
+    const leftScrollButton = document.querySelector(`#${sectionId} .left`);
+    leftScrollButton.classList.toggle('inactive', index===0);
+    const rightScrollButton = document.querySelector(`#${sectionId} .right`);
+    rightScrollButton.classList.toggle('inactive', index===dots.length-1);
 }
 
 
