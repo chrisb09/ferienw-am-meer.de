@@ -110,14 +110,8 @@ function showLanguagePopup(lang) {
 function updateNavlinkLogoScale(translations, scaleFactor) {
     document.querySelectorAll('.translateable').forEach(element => {
         const elementId = element.id;
-        
-        // Step 1: Store the original font size in a data attribute if it doesn't exist
-        if (!element.dataset.originalFontSize) {
-            var originalStyle = window.getComputedStyle(element, null).getPropertyValue('font-size');
-            element.dataset.originalFontSize = originalStyle; // Store original font-size
-        }
 
-        // Step 2: Reset font-size by removing any inline styles
+        // Step 1: Remove any inline font-size styles (reset)
         if (elementId.startsWith('navlink') || elementId === 'logo') {
             element.style.removeProperty("font-size");
         }
@@ -127,22 +121,24 @@ function updateNavlinkLogoScale(translations, scaleFactor) {
         const elementId = element.id;
 
         if (elementId.startsWith('navlink') || elementId === 'logo') {
-            // Step 3: Use the original font-size from the data attribute
-            var originalFontSize = parseFloat(element.dataset.originalFontSize);
+            // Step 2: Always get the current computed style based on the active media query
+            var computedStyle = window.getComputedStyle(element, null).getPropertyValue('font-size');
+            var currentFontSizePx = parseFloat(computedStyle);  // Get the current font-size in px
 
-            // Convert px to vw (based on original font-size)
-            var vw = (originalFontSize / window.innerWidth) * 100;
+            // Step 3: Convert px to vw (based on the current viewport size)
+            var vw = (currentFontSizePx / window.innerWidth) * 100;
 
-            // Apply the new font size in vw
+            // Step 4: Apply the new font size in vw, scaling by the provided factor
             element.style.fontSize = `${vw * scaleFactor}vw`;
 
-            console.log("Original font-size: " + originalFontSize);
+            console.log("Current font-size: " + currentFontSizePx);
             console.log("Converted to vw: " + vw);
             console.log("Scale factor: " + scaleFactor);
         }
         console.log("----------------------");
     });
 }
+
 
 // Function to load the JSON translation file and update the text of elements
 async function loadTranslations() {
