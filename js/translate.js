@@ -107,31 +107,38 @@ function showLanguagePopup(lang) {
     }
 }
 
-// Function to update the scale for navlink and logo elements
 function updateNavlinkLogoScale(translations, scaleFactor) {
     document.querySelectorAll('.translateable').forEach(element => {
         const elementId = element.id;
+        
+        // Step 1: Store the original font size in a data attribute if it doesn't exist
+        if (!element.dataset.originalFontSize) {
+            var originalStyle = window.getComputedStyle(element, null).getPropertyValue('font-size');
+            element.dataset.originalFontSize = originalStyle; // Store original font-size
+        }
+
+        // Step 2: Reset font-size by removing any inline styles
         if (elementId.startsWith('navlink') || elementId === 'logo') {
             element.style.removeProperty("font-size");
         }
     });
+
     document.querySelectorAll('.translateable').forEach(element => {
         const elementId = element.id;
 
         if (elementId.startsWith('navlink') || elementId === 'logo') {
-            // Get the computed style in pixels
-            var style = window.getComputedStyle(element, null).getPropertyValue('font-size');
-            var fontSizePx = parseFloat(style);
+            // Step 3: Use the original font-size from the data attribute
+            var originalFontSize = parseFloat(element.dataset.originalFontSize);
 
-            // Convert px to vw
-            var vw = (fontSizePx / window.innerWidth) * 100;
+            // Convert px to vw (based on original font-size)
+            var vw = (originalFontSize / window.innerWidth) * 100;
 
             // Apply the new font size in vw
             element.style.fontSize = `${vw * scaleFactor}vw`;
-            console.log();
-            console.log("Existing font-size: "+fontSizePx);
-            console.log("in vw:"+vw);
-            console.log("scale: "+scaleFactor)
+
+            console.log("Original font-size: " + originalFontSize);
+            console.log("Converted to vw: " + vw);
+            console.log("Scale factor: " + scaleFactor);
         }
         console.log("----------------------");
     });
