@@ -111,9 +111,14 @@ function showLanguagePopup(lang) {
 function updateNavlinkLogoScale(translations, scaleFactor) {
     document.querySelectorAll('.translateable').forEach(element => {
         const elementId = element.id;
-
         if (elementId.startsWith('navlink') || elementId === 'logo') {
             element.style.removeProperty("font-size");
+        }
+    });
+    document.querySelectorAll('.translateable').forEach(element => {
+        const elementId = element.id;
+
+        if (elementId.startsWith('navlink') || elementId === 'logo') {
             // Get the computed style in pixels
             var style = window.getComputedStyle(element, null).getPropertyValue('font-size');
             var fontSizePx = parseFloat(style);
@@ -123,7 +128,12 @@ function updateNavlinkLogoScale(translations, scaleFactor) {
 
             // Apply the new font size in vw
             element.style.fontSize = `${vw * scaleFactor}vw`;
+            console.log();
+            console.log("Existing font-size: "+fontSizePx);
+            console.log("in vw:"+vw);
+            console.log("scale: "+scaleFactor)
         }
+        console.log("----------------------");
     });
 }
 
