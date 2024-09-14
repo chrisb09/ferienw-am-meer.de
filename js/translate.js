@@ -3,65 +3,62 @@ function getUrlParameter(name) {
     const regex = new RegExp(`[?&]${name}=([^&#]*)`);
     const results = regex.exec(window.location.search);
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+
 }
 
 // Popup translations for supported languages
 const popupTranslations = {
-    de: {
-        message: "Es scheint, als würdest du die folgende Sprache nutzen: ",
-        switch: "Sprache wechseln",
-        stay: "Die aktuelle Sprache beibehalten"
+    "en": {
+        "message": "We detected your browser language as English",
+        "switch": "Switch to English",
+        "stay": "Seite weiterhin auf Deutsch betrachten"
     },
-    en: {
-        message: "We detected your browser language as ",
-        switch: "Switch Language",
-        stay: "Stay in Current Language"
+    "fr": {
+        "message": "Nous avons détecté que la langue de votre navigateur est le français",
+        "switch": "Passer au français",
+        "stay": "Seite weiterhin auf Deutsch betrachten"
     },
-    fr: {
-        message: "Nous avons détecté la langue de votre navigateur : ",
-        switch: "Changer de langue",
-        stay: "Rester dans la langue actuelle"
+    "es": {
+        "message": "Hemos detectado que el idioma de tu navegador es español",
+        "switch": "Cambiar a español",
+        "stay": "Seite weiterhin auf Deutsch betrachten"
     },
-    es: {
-        message: "Hemos detectado el idioma de su navegador: ",
-        switch: "Cambiar idioma",
-        stay: "Mantener el idioma actual"
+    "pt": {
+        "message": "Detectámos que o idioma do seu navegador é português",
+        "switch": "Mudar para português",
+        "stay": "Seite weiterhin auf Deutsch betrachten"
     },
-    pt: {
-        message: "Detectamos o idioma do seu navegador como ",
-        switch: "Mudar idioma",
-        stay: "Permanecer no idioma atual"
+    "nl": {
+        "message": "We hebben gedetecteerd dat de taal van uw browser Nederlands is",
+        "switch": "Overschakelen naar Nederlands",
+        "stay": "Seite weiterhin auf Deutsch betrachten"
     },
-    nl: {
-        message: "We hebben de taal van uw browser gedetecteerd als ",
-        switch: "Taal wijzigen",
-        stay: "Blijf in de huidige taal"
+    "uk": {
+        "message": "Ми виявили, що мова вашого браузера українська",
+        "switch": "Переключити на українську",
+        "stay": "Seite weiterhin auf Deutsch betrachten"
     },
-    uk: {
-        message: "Ми виявили мову вашого браузера як ",
-        switch: "Змінити мову",
-        stay: "Залишитися на поточній мові"
+    "tr": {
+        "message": "Tarayıcı dilinizin Türkçe olduğunu tespit ettik",
+        "switch": "Türkçeye geç",
+        "stay": "Seite weiterhin auf Deutsch betrachten"
     },
-    tr: {
-        message: "Tarayıcı dilinizin şu dil olduğunu tespit ettik: ",
-        switch: "Dili Değiştir",
-        stay: "Mevcut Dilde Kal"
+    "it": {
+        "message": "Abbiamo rilevato che la lingua del tuo browser è l'italiano",
+        "switch": "Passa all'italiano",
+        "stay": "Seite weiterhin auf Deutsch betrachten"
     },
-    it: {
-        message: "Abbiamo rilevato la lingua del browser come ",
-        switch: "Cambia Lingua",
-        stay: "Rimani nella lingua corrente"
+    "pl": {
+        "message": "Wykryliśmy, że język przeglądarki to polski",
+        "switch": "Przełącz na polski",
+        "stay": "Seite weiterhin auf Deutsch betrachten"
     },
-    pl: {
-        message: "Wykryliśmy język twojej przeglądarki jako ",
-        switch: "Zmień język",
-        stay: "Pozostań w bieżącym języku"
-    },
-    da: {
-        message: "Vi har registreret dit browsersprog som ",
-        switch: "Skift sprog",
-        stay: "Bliv på nuværende sprog"
+    "da": {
+        "message": "Vi har opdaget, at din browsersprog er dansk",
+        "switch": "Skift til dansk",
+        "stay": "Seite weiterhin auf Deutsch betrachten"
     }
+    
 };
 
 // Function to detect browser language and handle language switch popup
@@ -116,6 +113,7 @@ function updateNavlinkLogoScale(translations, scaleFactor) {
         const elementId = element.id;
 
         if (elementId.startsWith('navlink') || elementId === 'logo') {
+            element.style.removeProperty("font-size");
             // Get the computed style in pixels
             var style = window.getComputedStyle(element, null).getPropertyValue('font-size');
             var fontSizePx = parseFloat(style);
@@ -173,6 +171,10 @@ async function loadTranslations() {
 
         // Apply scaling to navlink and logo elements
         updateNavlinkLogoScale(translations, scaleFactor);
+
+        window.addEventListener('resize', () => {
+            updateNavlinkLogoScale(translations, scaleFactor);
+        });
 
     } catch (error) {
         console.error('Error loading translations:', error);
