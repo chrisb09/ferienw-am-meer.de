@@ -84,7 +84,7 @@ function showLanguagePopup(lang) {
         const translations = popupTranslations[lang] || popupTranslations['en'];
 
         // Update the message and button text in the popup
-        message.textContent = `${translations.message}${lang.toUpperCase()}. Would you like to switch to this language?`;
+        message.textContent = `${translations.message}.`;
         switchLangBtn.textContent = translations.switch;
         closePopupBtn.textContent = translations.stay;
 
