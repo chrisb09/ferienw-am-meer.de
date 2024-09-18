@@ -1,6 +1,8 @@
 import json
 import openai
 
+from hyphens import add_hyphens
+
 # Function to load the OpenAI API key from a local file
 def load_api_key(file_path):
     try:
@@ -33,9 +35,9 @@ def translate_content(json_file, language, output_file, openai_api_key):
     # Iterate over each id and content in the JSON
     for element_id, text in data.items():
         try:
-            hyphens="E"
-            if "­" in text:
-                 hyphens="Add soft hyphens (­) at grammatically correct places, and e"
+            line_breaks = ""
+            if "</br>" in text:
+                line_breaks="Also include line breaks (</br>) in the translated text at the proper position."
             # Call OpenAI's GPT model to translate the text
             response = openai.ChatCompletion.create(
                 model="gpt-4o-mini",
@@ -43,7 +45,7 @@ def translate_content(json_file, language, output_file, openai_api_key):
                     {"role": "system", "content": "You are a helpful translator."},
                     {
                         "role": "user",
-                        "content": f"Translate the following text into {language}. Keep the meaning intact while also providing a natural and professional translation.{hyphens}ncode the text in a way that it does not interfere with html. Ensure the translation length doesn't massively exceed the original text. Return only the translation and nothing else. Remember, the target language is {language}. The text to translate is: {text}",
+                        "content": f"Translate the following text into {language}. Keep the meaning intact while also providing a natural and professional translation. Encode the text in a way that it does not interfere with html. {line_breaks} Ensure the translation length doesn't massively exceed the original text. Return only the translation and nothing else. Remember, the target language is {language}. The text to translate is: {text}",
                     },
                 ],
                 max_tokens=1000,
@@ -53,7 +55,7 @@ def translate_content(json_file, language, output_file, openai_api_key):
             translated_text = response['choices'][0]['message']['content']
 
             # Save the translated text to the dictionary
-            translations[element_id] = translated_text.strip()
+            translations[element_id] = add_hyphens(translated_text.strip(), lang=language)
             if element_id.startswith("navlink") or element_id == "logo":
                 translated_navbar_size += len(translations[element_id])
             #translations["scale"] = min(translations["scale"], len(text)/len(translated_text))
