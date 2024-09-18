@@ -165,6 +165,10 @@ h3 {
     /* Reverse the grid direction */
 }
 
+.content-duo {
+    direction: ltr;
+}
+
 .reverse .text-content {
     align-self: center;
     /* Center the text box vertically */
@@ -195,6 +199,12 @@ h3 {
     height: auto; /* This ensures the aspect ratio is preserved */
     /* Alternatively, you can set a specific aspect ratio if needed */
     aspect-ratio: 1304 / 921; /* This will keep the image's aspect ratio */
+}
+
+.content-duo img {
+    height: auto; /* This ensures the aspect ratio is preserved */
+    /* Alternatively, you can set a specific aspect ratio if needed */
+    aspect-ratio: 921 / 1304; /* This will keep the image's aspect ratio */
 }
 
 .content-solo {
@@ -328,7 +338,7 @@ h3 {
 
 .navbar .hamburger span {
 
-    border: 1px solid black;
+    border: 0.2vw solid black;
     width: 5vw;
     height: 0.75vw;
     border-radius: 0.5vw;
@@ -343,6 +353,64 @@ h3 {
 }
 
 @media (min-width: 768px) {
+
+    .content-duo-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        /* Two equal columns */
+        column-gap: 2%;
+        row-gap: 1vw;
+        /* Space between the image and the text */
+        align-items: center;
+        /* Align items to the center vertically */
+    }
+
+    .content-duo {
+        overflow: visible;
+    }
+
+    img.content-duo {
+        width: calc(95%);
+        max-height: calc(100%-1vw);
+        border-radius: 1vw;
+        object-fit: cover;
+        /* Ensure image covers its box without distortion */
+    }
+
+    .text-content.content-duo {
+        margin-left: 0vw;
+        margin-right: 1.5vw;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    img.content-duo {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .text-content.content-duo.reverse {
+        margin-left: 0vw;
+        margin-right: 1.8vw;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    img.content-duo.reverse {
+        transform: translateX(0vw) translateY(-2vw);
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+
     #top_spacer {
         top: 0;
         left: 5vw;
@@ -546,7 +614,7 @@ h3 {
         font-size: calc(-1px + 5vw);
     }
 
-    .reverse {
+    .reverse:not(.content-duo) {
         grid-template-columns: 1fr;
         /* Same two-column layout */
         direction: rtl;
@@ -564,6 +632,29 @@ h3 {
     .reverse img {
         margin-right: 0vw;
     }
+
+    .content-duo-grid {
+        align-items: center;
+
+    }
+
+    .content-duo {
+        overflow: visible;
+    }
+
+    img.content-duo {
+        width: calc(90%);
+        max-height: calc(33%);
+        border-radius: 1vw;
+        object-fit: cover;
+        /* Ensure image covers its box without distortion */
+    }
+
+    .text-content.content-duo {
+        margin-left: 0vw;
+        margin-right: 1.5vw;
+    }
+
 
     .scroll-button {
         width: 10vw;
