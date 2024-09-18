@@ -1,398 +1,457 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="translateable" id="title">Ferienwohnungen „Am Meer“ - Bad Zwischenahn</title>
-
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#5bbad5">
-    <meta name="theme-color" content="#5bbad5">
-
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/translate.css">
-    <link rel="stylesheet" href="css/translate-dialogue.css">
-    <link rel="stylesheet" href="css/modal.css">
-    <link rel="stylesheet" href="css/headline.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="res/Fork-Awesome-1.2.0/css/fork-awesome.min.css">
-
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="js/flagFont.js"></script>
-    <script type="text/javascript" src="js/modal.js"></script>
-    <script type="text/javascript" src="js/translate.js"></script>
-</head>
-
-<body>
-    <div id="language-popup" class="popup-overlay" style="display: none;">
-        <div class="popup-content">
-            <p id="language-message">We detected your browser language. Would you like to switch?</p>
-            <button id="switch-lang-btn">Switch Language</button>
-            <button id="close-popup-btn">Stay in Current Language</button>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title class="translateable" id="title">
+   Fe­ri­en­woh­nun­gen „Am Meer“ - Bad Zwi­sche­nahn
+  </title>
+  <link href="apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+  <link href="site.webmanifest" rel="manifest"/>
+  <link color="#5bbad5" href="safari-pinned-tab.svg" rel="mask-icon"/>
+  <meta content="#5bbad5" name="msapplication-TileColor"/>
+  <meta content="#5bbad5" name="theme-color"/>
+  <link href="css/style.css" rel="stylesheet"/>
+  <link href="css/translate.css" rel="stylesheet"/>
+  <link href="css/translate-dialogue.css" rel="stylesheet"/>
+  <link href="css/modal.css" rel="stylesheet"/>
+  <link href="css/headline.css" rel="stylesheet"/>
+  <link href="css/fonts.css" rel="stylesheet"/>
+  <link href="res/Fork-Awesome-1.2.0/css/fork-awesome.min.css" rel="stylesheet"/>
+  <script src="js/index.js" type="text/javascript">
+  </script>
+  <script src="js/flagFont.js" type="text/javascript">
+  </script>
+  <script src="js/modal.js" type="text/javascript">
+  </script>
+  <script src="js/translate.js" type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div class="popup-overlay" id="language-popup" style="display: none;">
+   <div class="popup-content">
+    <p id="language-message">
+     We detected your browser language. Would you like to switch?
+    </p>
+    <button id="switch-lang-btn">
+     Switch Language
+    </button>
+    <button id="close-popup-btn">
+     Stay in Current Language
+    </button>
+   </div>
+  </div>
+  <div class="navbox">
+   <nav class="navbar">
+    <a href="#">
+     <div class="logo headline-small translateable" id="logo">
+      Fe­ri­en­woh­nun­gen „Am Meer“
+     </div>
+    </a>
+    <ul class="nav-links">
+     <li>
+      <div class="link-box">
+       <a href="#wohnung-105">
+        <div class="headline-tiny translateable" id="navlink_wohnung_105">
+         Woh­nung 105
         </div>
-    </div>
-    <div class="navbox">
-        <nav class="navbar">
-            <a href="#">
-                <div class="logo headline-small translateable" id="logo">Ferienwohnungen „Am Meer“</div>
-            </a>
-
-            <ul class="nav-links">
-                <li>
-                    <div class="link-box">
-                        <a href="#wohnung-105">
-                            <div class="headline-tiny translateable" id="navlink_wohnung_105">Wohnung 105</div>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="link-box">
-                        <a href="#wohnung-106">
-                            <div class="headline-tiny translateable" id="navlink_wohnung_106">Wohnung 106</div>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="link-box">
-                        <a href="#anreise">
-                            <div class="headline-tiny translateable" id="navlink_anreise">Anreise</div>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="link-box">
-                        <a href="#freizeit">
-                            <div class="headline-tiny translateable" id="navlink_freizeit">Freizeit</div>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="link-box">
-                        <a href="#kontakt">
-                            <div class="headline-tiny translateable" id="navlink_kontakt">Kontakt & Preise</div>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="link-box">
-                        <a href="#" id="translate-button">
-                            <i class="fa fa-language highlight"></i>
-                        </a>
-                </li>
-                <li>
-                    <ul class="language-submenu">
-                        <li><a href="?lang=en">
-                                <div class="headline-mini language-submenu-item">🇬🇧 English</div>
-                            </a></li>
-                        <li><a href="?lang=de">
-                                <div class="headline-mini language-submenu-item">🇩🇪 Deutsch
-                                </div>
-                            </a></li>
-                        <li><a href="?lang=fr">
-                                <div class="headline-mini language-submenu-item">🇫🇷 Français</div>
-                            </a></li>
-                        <li><a href="?lang=es">
-                                <div class="headline-mini language-submenu-item">🇪🇸 Español</div>
-                            </a></li>
-                        <li><a href="?lang=pt">
-                                <div class="headline-mini language-submenu-item">🇵🇹 Português</div>
-                            </a></li>
-                        <li><a href="?lang=nl">
-                                <div class="headline-mini language-submenu-item">🇳🇱 Nederlands</div>
-                            </a></li>
-                        <li><a href="?lang=uk">
-                                <div class="headline-mini language-submenu-item">🇺🇦 Українська</div>
-                            </a></li>
-                        <li><a href="?lang=tr">
-                                <div class="headline-mini language-submenu-item">🇹🇷 Türkçe</div>
-                            </a></li>
-                        <li><a href="?lang=it">
-                                <div class="headline-mini language-submenu-item">🇮🇹 Italiano</div>
-                            </a></li>
-                        <li><a href="?lang=pl">
-                                <div class="headline-mini language-submenu-item">🇵🇱 Polski</div>
-                            </a></li>
-                        <li><a href="?lang=da">
-                                <div class="headline-mini language-submenu-item">🇩🇰 Dansk</div>
-                            </a></li>
-
-                    </ul>
-                </li>
-            </ul>
-
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+       </a>
+      </div>
+     </li>
+     <li>
+      <div class="link-box">
+       <a href="#wohnung-106">
+        <div class="headline-tiny translateable" id="navlink_wohnung_106">
+         Woh­nung 106
+        </div>
+       </a>
+      </div>
+     </li>
+     <li>
+      <div class="link-box">
+       <a href="#anreise">
+        <div class="headline-tiny translateable" id="navlink_anreise">
+         An­rei­se
+        </div>
+       </a>
+      </div>
+     </li>
+     <li>
+      <div class="link-box">
+       <a href="#freizeit">
+        <div class="headline-tiny translateable" id="navlink_freizeit">
+         Frei­zeit
+        </div>
+       </a>
+      </div>
+     </li>
+     <li>
+      <div class="link-box">
+       <a href="#kontakt">
+        <div class="headline-tiny translateable" id="navlink_kontakt">
+         Kon­takt &amp; Prei­se
+        </div>
+       </a>
+      </div>
+     </li>
+     <li>
+      <div class="link-box">
+       <a href="#" id="translate-button">
+        <i class="fa fa-language highlight">
+        </i>
+       </a>
+       <li>
+        <ul class="language-submenu">
+         <li>
+          <a href="?lang=en">
+           <div class="headline-mini language-submenu-item">
+            🇬🇧 English
+           </div>
+          </a>
+         </li>
+         <li>
+          <a href="?lang=de">
+           <div class="headline-mini language-submenu-item">
+            🇩🇪 Deutsch
+           </div>
+          </a>
+         </li>
+         <li>
+          <a href="?lang=fr">
+           <div class="headline-mini language-submenu-item">
+            🇫🇷 Français
+           </div>
+          </a>
+         </li>
+         <li>
+          <a href="?lang=es">
+           <div class="headline-mini language-submenu-item">
+            🇪🇸 Español
+           </div>
+          </a>
+         </li>
+         <li>
+          <a href="?lang=pt">
+           <div class="headline-mini language-submenu-item">
+            🇵🇹 Português
+           </div>
+          </a>
+         </li>
+         <li>
+          <a href="?lang=nl">
+           <div class="headline-mini language-submenu-item">
+            🇳🇱 Nederlands
+           </div>
+          </a>
+         </li>
+         <li>
+          <a href="?lang=uk">
+           <div class="headline-mini language-submenu-item">
+            🇺🇦 Українська
+           </div>
+          </a>
+         </li>
+         <li>
+          <a href="?lang=tr">
+           <div class="headline-mini language-submenu-item">
+            🇹🇷 Türkçe
+           </div>
+          </a>
+         </li>
+         <li>
+          <a href="?lang=it">
+           <div class="headline-mini language-submenu-item">
+            🇮🇹 Italiano
+           </div>
+          </a>
+         </li>
+         <li>
+          <a href="?lang=pl">
+           <div class="headline-mini language-submenu-item">
+            🇵🇱 Polski
+           </div>
+          </a>
+         </li>
+         <li>
+          <a href="?lang=da">
+           <div class="headline-mini language-submenu-item">
+            🇩🇰 Dansk
+           </div>
+          </a>
+         </li>
+        </ul>
+       </li>
+       <div class="hamburger">
+        <span>
+        </span>
+        <span>
+        </span>
+        <span>
+        </span>
+       </div>
+      </div>
+      <div class="modal" id="imageModal">
+       <span class="close" onclick="closeModal()">
+        ×
+       </span>
+       <img class="modal-content" id="modalImage"/>
+      </div>
+      <div id="top_spacer">
+      </div>
+      <article>
+       <section id="wohnung-105">
+        <a href="#wohnung-105">
+         <h2 class="headline translateable" id="headline_wohnung_105">
+          Woh­nung 105
+         </h2>
+        </a>
+        <div class="outer-scroll-container">
+         <button class="scroll-button left" onclick="leftScrollButtonClick('wohnung-105')">
+          <i class="fa fa-chevron-left">
+          </i>
+         </button>
+         <div class="scroll-container">
+          <div class="scroll-content" id="wohnung-105-scroll">
+           <div class="scroll-item">
+            <div class="content-grid">
+             <img alt="Wohnzimmer" class="shadow-image clickable-image" onclick="openModal(this)" src="img/Whg_105_Wohnzimmer_01.jpg"/>
+             <div class="text-content">
+              <h3 class="translateable" id="whg_105_wohnzimmer_01_h3">
+               Wohn­zim­mer mit See­blick
+              </h3>
+              <p class="translateable" id="whg_105_wohnzimmer_01_p">
+               Das groß­zü­gi­ge Wohn­zim­mer lädt zum Ent­span­nen ein. Dank der gro­ßen Fens­ter­fron­ten ge­ni­e­ßen Sie ein hel­les, of­fe­nes Am­bi­en­te mit ei­nem wun­der­schö­nen Blick auf den See. Hier kön­nen Sie sich bei ei­ner Tas­se Kaf­fee zu­rück­leh­nen, träu­men und ein­fach die See­le bau­meln las­sen. Für den Schutz Ih­rer Wert­sa­chen ist ein Safe im Wohn­be­reich in­stal­lier­t.
+              </p>
+             </div>
             </div>
-        </nav>
-    </div>
-
-    <div id="imageModal" class="modal">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <img class="modal-content" id="modalImage">
-    </div>
-
-    <div id="top_spacer"></div>
-
-    <article>
-        <section id="wohnung-105">
-
-            <a href="#wohnung-105">
-                <h2 class="headline translateable" id="headline_wohnung_105">Wohnung 105</h2>
-            </a>
-
-            <div class="outer-scroll-container">
-                <button class="scroll-button left" onclick="leftScrollButtonClick('wohnung-105')"><i
-                        class="fa fa-chevron-left"></i></button>
-                <div class="scroll-container">
-                    <div class="scroll-content" id="wohnung-105-scroll">
-                        <div class="scroll-item">
-                            <div class="content-grid">
-                                <img src="img/Whg_105_Wohnzimmer_01.jpg" class="shadow-image clickable-image"
-                                    onclick="openModal(this)" alt="Wohnzimmer">
-                                <div class="text-content">
-                                    <h3 class="translateable" id="whg_105_wohnzimmer_01_h3">
-                                        Wohn&shy;zim&shy;mer mit See&shy;blick
-                                    </h3>
-                                    <p class="translateable" id="whg_105_wohnzimmer_01_p">
-                                        Das gro&szlig;&shy;z&uuml;gige Wohn&shy;zim&shy;mer l&auml;dt zum Ent&shy;span&shy;nen ein. Dank der gro&szlig;en Fenster&shy;front&shy;en genie&szlig;en Sie ein hel&shy;les, of&shy;fen&shy;es Am&shy;biente mit ein&shy;em wunder&shy;sch&ouml;nen Blick auf den See. Hier k&ouml;n&shy;nen Sie sich bei ein&shy;er Tas&shy;se Kaf&shy;fee zur&uuml;ck&shy;lehn&shy;en, tr&auml;umen und ein&shy;fach die See&shy;le baumeln las&shy;sen. F&uuml;r den Schutz Ihrer
-                                        Wert&shy;sachen ist ein Safe im Wohn&shy;ber&shy;eich in&shy;stal&shy;liert.</p>
-                                </div>
-                            </div>
-                            <div class="content-grid reverse">
-                                <img src="img/Whg_105_Wohnzimmer_02.jpg" class="shadow-image clickable-image"
-                                    onclick="openModal(this)" alt="Wohnzimmer">
-
-                                <div class="text-content">
-                                    <h3 class="translateable" id="whg_105_wohnzimmer_02_h3">
-                                        Voll ausge&shy;stat&shy;tete K&uuml;che
-                                    </h3>
-                                    <p class="translateable" id="whg_105_wohnzimmer_02_p">
-                                        Die an&shy;grenz&shy;ende K&uuml;chen&shy;ecke biet&shy;et alles, was Sie f&uuml;r die Zu&shy;be&shy;reit&shy;ung Ihrer Mahl&shy;zeit&shy;en be&shy;n&ouml;tigen. Aus&shy;gestat&shy;tet mit ein&shy;em K&uuml;hl&shy;schrank, 4-Plat&shy;ten&shy;herd, Ge&shy;schirr&shy;sp&uuml;ler, Mikro&shy;welle, Back&shy;ofen sowie prakti&shy;sch&shy;en Ge&shy;r&auml;ten wie Kaffee&shy;ma&shy;schi&shy;ne, Was&shy;ser&shy;koch&shy;er, Eier&shy;koch&shy;er und Toast&shy;er, sind Sie bestens ge&shy;r&uuml;stet f&uuml;r kom&shy;fort&shy;ables Koch&shy;en und Genie&szlig;&shy;en.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="content-grid">
-                                <img src="img/Whg_105_Wohnzimmer_03.jpg" class="shadow-image clickable-image"
-                                    onclick="openModal(this)" alt="Wohnzimmer">
-                                <div class="text-content">
-                                    <h3 class="translateable" id="whg_105_wohnzimmer_03_h3">
-                                        Ess&shy;be&shy;reich und Unter&shy;halt&shy;ung
-                                    </h3>
-                                    <p class="translateable" id="whg_105_wohnzimmer_03_p">
-                                        Im Ess&shy;bereich er&shy;war&shy;tet Sie ein ge&shy;m&uuml;t&shy;licher Ess&shy;tisch mit drei St&uuml;hl&shy;en, der sich per&shy;fekt f&uuml;r ge&shy;mein&shy;same Mahl&shy;zeiten eig&shy;net. Eine ver&shy;schieb&shy;bare Theke zwisch&shy;en Wohn- und Ess&shy;be&shy;reich bie&shy;tet zu&shy;s&auml;tzliche Flexi&shy;&shy;bili&shy;t&auml;t. F&uuml;r Unter&shy;halt&shy;ung ist eben&shy;falls ge&shy;sorgt: Eine Stereo&shy;anlage mit Radio, CD- und Kas&shy;setten&shy;spiel&shy;er steht be&shy;reit, ebenso wie Kabel-TV, B&uuml;ch&shy;er, Zeit&shy;schrift&shy;en und Ge&shy;sellschafts&shy;spiele. Hier k&ouml;nnen Sie Ihre Mahl&shy;zeit&shy;en genie&szlig;en und gleich&shy;zei&shy;tig f&uuml;r Unter&shy;halt&shy;ung sorgen.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="scroll-item">
-                            <div class="content-grid">
-                                <img src="img/Whg_105_Schlafzimmer_01.jpg" class="shadow-image clickable-image"
-                                    onclick="openModal(this)" alt="Schlafzimmer">
-                                <div class="text-content">
-                                    <h3 class="translateable" id="whg_105_schlafzimmer_01_h3">
-                                        Schlaf&shy;en mit traum&shy;haft&shy;em See&shy;blick
-                                    </h3>
-                                    <p class="translateable" id="whg_105_schlafzimmer_01_p">
-                                        Das Schlaf&shy;zimm&shy;er be&shy;ein&shy;druckt mit sein&shy;em herr&shy;lich&shy;en Blick auf den See, den Sie direkt vom ge&shy;mütlich&shy;en Doppel&shy;bett aus genieß&shy;en k&ouml;n&shy;nen. Die groß&shy;en Fenst&shy;er lass&shy;en viel na&shy;tür&shy;lich&shy;es Licht in den Raum, was eine ruhige und ent&shy;spannte Atmo&shy;sphäre schafft. Mit ge&shy;trennt&shy;en Ma&shy;tratz&shy;en und frisch&shy;er Bett&shy;wäsche aus&shy;gestattet, bietet das Bett op&shy;timal&shy;en Komfort für er&shy;hol&shy;same Nächte.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="content-grid reverse">
-                                <img src="img/empty.jpg" class="shadow-image clickable-image"
-                                    onclick="openModal(this)" alt="Schlafzimmer">
-                                <div class="text-content">
-                                    <h3 class="translateable" id="whg_105_schlafzimmer_02_h3">
-                                        Stilvoll und funktional ein&shy;gerichtet
-                                    </h3>
-                                    <p class="translateable" id="whg_105_schlafzimmer_02_p">
-                                        Der Raum ist mit hoch&shy;wertig&shy;en Holz&shy;möbeln aus&shy;gestattet, dar&shy;unt&shy;er ein ge&shy;räumig&shy;er Kleider&shy;schrank und eine prakti&shy;sche Kom&shy;mode. Die beiden Nacht&shy;tische neb&shy;en dem Bett bieten be&shy;quemen Stau&shy;raum für Ihre per&shy;sön&shy;lichen Ge&shy;gen&shy;stände. Für zu&shy;sätzlich&shy;en Komfort und Flexi&shy;bili&shy;tät sorg&shy;en die zwei Stühle, die zum Sitz&shy;en oder Ableg&shy;en von Klei&shy;dung ge&shy;nutzt werd&shy;en könn&shy;en.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="content-grid">
-                                <img src="img/empty.jpg" class="shadow-image clickable-image"
-                                    onclick="openModal(this)" alt="Schlafzimmer">
-                                <div class="text-content">
-                                    <h3 class="translateable" id="whg_105_schlafzimmer_03_h3">
-                                        Unter&shy;haltung im Schlaf&shy;zim&shy;mer
-                                    </h3>
-                                    <p class="translateable" id="whg_105_schlafzimmer_03_p">
-                                        Neben der ge&shy;müt&shy;lichen Ein&shy;richt&shy;ung biet&shy;et das Schlaf&shy;zim&shy;mer ein zweit&shy;es Fern&shy;seh&shy;ge&shy;rät, das sich auf dem Kleid&shy;er&shy;schrank be&shy;find&shy;et. So k&ouml;nnen Sie Ihre Lieb&shy;lings&shy;send&shy;ung&shy;en auch be&shy;quem vom Bett aus ge&shy;nie&shy;ßen. Der har&shy;mo&shy;nische Mix aus na&shy;tür&shy;lich&shy;em Holz, warm&shy;em Licht und dem wun&shy;der&shy;baren Aus&shy;blick auf den See macht dieses Schlaf&shy;zimmer zu ein&shy;em Ort der Ent&shy;spannung und Er&shy;hol&shy;ung.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="scroll-item">
-                            <div class="content-grid">
-                                <img src="img/empty.jpg" class="shadow-image clickable-image" onclick="openModal(this)" alt="Badezimmer">
-                                <div class="text-content">
-                                    <h3 class="translateable" id="whg_105_badezimmer_01_h3">Badezimmer</h3>
-                                    <p class="translateable" id="whg_105_badezimmer_01_p">Beschreibung des Badezimmers.</p>
-                                </div>
-                            </div>
-                            <div class="content-grid reverse">
-                                <img src="img/empty.jpg" class="shadow-image clickable-image" onclick="openModal(this)" alt="Badezimmer">
-                                <div class="text-content">
-                                    <h3 class="translateable" id="whg_105_badezimmer_02_h3">Badezimmer</h3>
-                                    <p class="translateable" id="whg_105_badezimmer_02_p">Beschreibung des Badezimmers.</p>
-                                </div>
-                            </div>
-                            <div class="content-grid">
-                                <img src="img/empty.jpg" class="shadow-image clickable-image" onclick="openModal(this)" alt="Badezimmer">
-                                <div class="text-content">
-                                    <h3 class="translateable" id="whg_105_badezimmer_03_h3">Badezimmer</h3>
-                                    <p class="translateable" id="whg_105_badezimmer_03_p">Beschreibung des Badezimmers.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="scroll-item">
-                            <div class="content-duo-grid">
-                                <img src="img/Whg_105_Balkon_01.jpg" class="shadow-image clickable-image content-duo" onclick="openModal(this)" alt="Balkon">
-                                <div class="text-content content-duo">
-                                    <h3 class="translateable" id="whg_105_balkon_01_h3">
-                                        &Uuml;ber&shy;dach&shy;ter Bal&shy;kon für jedes Wet&shy;ter
-                                    </h3>
-                                    <p class="translateable" id="whg_105_balkon_01_p">
-                                        Der 6 Met&shy;er lange &uuml;ber&shy;dach&shy;te Bal&shy;kon wird Sie be&shy;geist&shy;ern. Egal ob bei Re&shy;gen oder Son&shy;nen&shy;schein, er l&auml;dt zum Ver&shy;weil&shy;en ein. An reg&shy;ner&shy;ischen Tagen k&ouml;n&shy;nen Sie trocken sit&shy;zen, und bei Son&shy;nen&shy;schein sorgt der schatt&shy;ige Be&shy;reich für an&shy;genehme K&uuml;hle. Die be&shy;quemen Lie&shy;ge&shy;st&uuml;hle biet&shy;en sich für ein kleines Schläf&shy;chen an, w&auml;hrend die Sitz&shy;ecke ideal für eine Mahl&shy;zeit im Frei&shy;en ist.
-                                    </p>
-                                </div>
-                                <img src="img/Whg_105_Balkon_02.jpg" class="shadow-image clickable-image content-duo reverse" onclick="openModal(this)" alt="Badezimmer">
-                                <div class="text-content content-duo reverse">
-                                    <h3 class="translateable" id="whg_105_balkon_02_h3">
-                                       Panorama&shy;aus&shy;blich auf den See
-                                    </h3>
-                                    <p class="translateable" id="whg_105_balkon_02_p">
-                                        Von Ihrem Bal&shy;kon aus haben Sie einen herr&shy;lichen Blick auf das bunte Treib&shy;en auf dem See. Sie k&ouml;nnen in all&shy;er Ruhe Se&shy;gel&shy;boote beim Auf&shy;kla&shy;ren be&shy;obachten, das Schwim&shy;men der Haus&shy;be&shy;woh&shy;ner ver&shy;folgen oder den Schwimm&shy;unter&shy;richt von Ent&shy;en, Schw&auml;nen und Hauben&shy;tauch&shy;ern be&shy;staunen. Viel&shy;leicht sehen Sie so&shy;gar den Fisch&shy;fang der M&ouml;wen oder den Fisch&shy;er Rab&shy;ben beim Le&shy;eren seiner Reus&shy;en. Auch sport&shy;liche &Uuml;bungen der Sur&shy;fer und Se&shy;gel&shy;übung&shy;en der Se&shy;gel&shy;schule k&ouml;nnen Sie direkt vom Bal&shy;kon aus genie&shy;ßen.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="scroll-item">
-                            <div class="content-solo">
-                                <div class="solo">
-                                    <img src="img/empty.jpg" alt="Grundriss">
-                                </div>
-                                <div class="text-content">
-                                    <h3 class="translateable" id="whg_105_grundriss_01_h3">
-                                        Grundriss
-                                    </h3>
-                                    <p class="translateable" id="whg_105_grundriss_01_p">
-                                        Beide Wohn&shy;ung&shy;en lieg&shy;en direkt neben&shy;ein&shy;ander in der 4. Etage und sind mit ein&shy;em Fahr&shy;stuhl er&shy;reich&shy;bar.
-                                        </br></br>
-                                        Durch einen separat&shy;en Ein&shy;gang ist ein barriere&shy;freies Er&shy;reich&shy;en der Wohn&shy;ung mög&shy;lich.
-                                        </br></br>
-                                        Die 50 qm teil&shy;en sich auf in ein Wohn&shy;zimmer mit Küchen&shy;zeile, ein Schlaf&shy;zimmer mit Doppel&shy;bett, Dusche, Flur, Ab&shy;stell&shy;raum und ein&shy;en 6m lang&shy;en, üb&shy;er&shy;dacht&shy;en Balk&shy;on.
-                                        </br></br>
-                                        Die Wohn&shy;ung ist komplett aus&shy;gestat&shy;tet. Sollte etwas fehl&shy;en, sorge ich gerne für Ab&shy;hilfe.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="scroll-button right" onclick="rightScrollButtonClick('wohnung-105')"><i
-                        class="fa fa-chevron-right"></i></button>
+            <div class="content-grid reverse">
+             <img alt="Wohnzimmer" class="shadow-image clickable-image" onclick="openModal(this)" src="img/Whg_105_Wohnzimmer_02.jpg"/>
+             <div class="text-content">
+              <h3 class="translateable" id="whg_105_wohnzimmer_02_h3">
+               Voll aus­ge­stat­te­te Kü­che
+              </h3>
+              <p class="translateable" id="whg_105_wohnzimmer_02_p">
+               Die an­gren­zen­de Kü­chen­e­cke bie­tet al­les, was Sie für die Zu­be­rei­tung Ih­rer Mahl­zei­ten be­nö­ti­gen. Aus­ge­stat­tet mit ei­nem Kühl­schrank, 4-­Plat­ten­herd, Ge­schirr­spü­ler, Mi­kro­wel­le, Back­ofen so­wie prak­ti­schen Ge­rä­ten wie Kaf­fee­ma­schi­ne, Was­ser­ko­cher, Ei­er­ko­cher und Toas­ter, sind Sie bes­tens ge­rüs­tet für kom­for­t­a­bles Ko­chen und Ge­ni­e­ßen.
+              </p>
+             </div>
             </div>
-            <div class="pagination-dots" id="wohnung-105-dots">
-                <span class="dot" onclick="jumpToSlide('wohnung-105', 0)"></span>
-                <span class="dot" onclick="jumpToSlide('wohnung-105', 1)"></span>
-                <span class="dot" onclick="jumpToSlide('wohnung-105', 2)"></span>
-                <span class="dot" onclick="jumpToSlide('wohnung-105', 3)"></span>
-                <span class="dot" onclick="jumpToSlide('wohnung-105', 4)"></span>
-                <!-- More dots -->
+            <div class="content-grid">
+             <img alt="Wohnzimmer" class="shadow-image clickable-image" onclick="openModal(this)" src="img/Whg_105_Wohnzimmer_03.jpg"/>
+             <div class="text-content">
+              <h3 class="translateable" id="whg_105_wohnzimmer_03_h3">
+               Ess­be­reich und Un­ter­hal­tung
+              </h3>
+              <p class="translateable" id="whg_105_wohnzimmer_03_p">
+               Im Ess­be­reich er­war­tet Sie ein ge­müt­li­cher Ess­tisch mit drei Stüh­len, der sich per­fekt für ge­mein­sa­me Mahl­zei­ten eig­net. Ei­ne ver­schieb­ba­re The­ke zwi­schen Wohn- und Ess­be­reich bie­tet zu­sätz­li­che Fle­xi­bi­li­tät. Für Un­ter­hal­tung ist eben­falls ge­sorg­t: Ei­ne Ste­reo­an­la­ge mit Ra­dio, CD- und Kas­set­ten­spie­ler steht be­reit, eben­so wie Ka­bel­-T­V, Bü­cher, Zeit­schrif­ten und Ge­sell­schaftss­pie­le. Hier kön­nen Sie Ih­re Mahl­zei­ten ge­ni­e­ßen und gleich­zei­tig für Un­ter­hal­tung sor­gen.
+              </p>
+             </div>
             </div>
-        </section>
-
-
-        <section id="wohnung-106">
-
-            <a href="#wohnung-106">
-                <h2 class="headline translateable" id="headline_wohnung_106">Wohnung 106</h2>
-            </a>
-
-            <div class="outer-scroll-container">
-                <button class="scroll-button left" onclick="leftScrollButtonClick('wohnung-106')"><i
-                        class="fa fa-chevron-left"></i></button>
-                <div class="scroll-container">
-                    <div class="scroll-content" id="wohnung-106-scroll">
-                        <div class="scroll-item">
-                            <div class="content-grid">
-                                <img src="img/Whg_106_Wohnzimmer_01.jpg" class="shadow-image clickable-image"
-                                    onclick="openModal(this)" alt="Wohnzimmer">
-                                <div class="text-content">
-                                    <h3 class="translateable" id="whg_106_wohnzimmer_01_h3">
-                                        
-                                    </h3>
-                                    <p class="translateable" id="whg_106_wohnzimmer_01_p">
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="content-grid reverse">
-                                <img src="img/Whg_105_Wohnzimmer_02.jpg" class="shadow-image clickable-image"
-                                    onclick="openModal(this)" alt="Wohnzimmer">
-
-                                <div class="text-content">
-                                    <h3 class="translateable" id="whg_106_wohnzimmer_02_h3">
-
-                                    </h3>
-                                    <p class="translateable" id="whg_106_wohnzimmer_02_p">
-                                        
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="content-grid">
-                                <img src="img/Whg_105_Wohnzimmer_03.jpg" class="shadow-image clickable-image"
-                                    onclick="openModal(this)" alt="Wohnzimmer">
-                                <div class="text-content">
-                                    <h3 class="translateable" id="whg_106_wohnzimmer_03_h3">
-
-                                    </h3>
-                                    <p class="translateable" id="whg_106_wohnzimmer_03_p">
-                                        
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="scroll-item">
-                            
-                        </div>
-                        <div class="scroll-item">
-                            
-                        </div>
-                        <div class="scroll-item">
-                            
-                        </div>
-                        <div class="scroll-item">
-                            
-                        </div>
-                    </div>
-                </div>
-                <button class="scroll-button right" onclick="rightScrollButtonClick('wohnung-106')"><i
-                        class="fa fa-chevron-right"></i></button>
+           </div>
+           <div class="scroll-item">
+            <div class="content-grid">
+             <img alt="Schlafzimmer" class="shadow-image clickable-image" onclick="openModal(this)" src="img/Whg_105_Schlafzimmer_01.jpg"/>
+             <div class="text-content">
+              <h3 class="translateable" id="whg_105_schlafzimmer_01_h3">
+               Schla­fen mit traum­haf­tem See­blick
+              </h3>
+              <p class="translateable" id="whg_105_schlafzimmer_01_p">
+               Das Schlaf­zim­mer be­ein­druckt mit sei­nem herr­li­chen Blick auf den See, den Sie di­rekt vom ge­müt­li­chen Dop­pel­bett aus ge­ni­e­ßen kön­nen. Die gro­ßen Fens­ter las­sen viel na­tür­li­ches Licht in den Raum, was ei­ne ru­hi­ge und ent­spann­te At­mo­sphä­re schafft. Mit ge­trenn­ten Ma­trat­zen und fri­scher Bett­wä­sche aus­ge­stat­tet, bie­tet das Bett op­ti­ma­len Kom­fort für er­hol­sa­me Näch­te.
+              </p>
+             </div>
             </div>
-            <div class="pagination-dots" id="wohnung-106-dots">
-                <span class="dot" onclick="jumpToSlide('wohnung-106', 0)"></span>
-                <span class="dot" onclick="jumpToSlide('wohnung-106', 1)"></span>
-                <span class="dot" onclick="jumpToSlide('wohnung-106', 2)"></span>
-                <span class="dot" onclick="jumpToSlide('wohnung-106', 3)"></span>
-                <span class="dot" onclick="jumpToSlide('wohnung-106', 4)"></span>
-                <!-- More dots -->
+            <div class="content-grid reverse">
+             <img alt="Schlafzimmer" class="shadow-image clickable-image" onclick="openModal(this)" src="img/empty.jpg"/>
+             <div class="text-content">
+              <h3 class="translateable" id="whg_105_schlafzimmer_02_h3">
+               Stil­voll und funk­ti­o­nal ein­ge­rich­tet
+              </h3>
+              <p class="translateable" id="whg_105_schlafzimmer_02_p">
+               Der Raum ist mit hoch­wer­ti­gen Holz­mö­beln aus­ge­stat­tet, dar­un­ter ein ge­räu­mi­ger Klei­der­schrank und ei­ne prak­ti­sche Kom­mo­de. Die bei­den Nacht­ti­sche ne­ben dem Bett bie­ten be­que­men Stau­raum für Ih­re per­sön­li­chen Ge­gen­stän­de. Für zu­sätz­li­chen Kom­fort und Fle­xi­bi­li­tät sor­gen die zwei Stüh­le, die zum Sit­zen oder Ab­le­gen von Klei­dung ge­nutzt wer­den kön­nen.
+              </p>
+             </div>
             </div>
-        </section>
-
-    </article>
-
-</body>
-
+            <div class="content-grid">
+             <img alt="Schlafzimmer" class="shadow-image clickable-image" onclick="openModal(this)" src="img/empty.jpg"/>
+             <div class="text-content">
+              <h3 class="translateable" id="whg_105_schlafzimmer_03_h3">
+               Un­ter­hal­tung im Schlaf­zim­mer
+              </h3>
+              <p class="translateable" id="whg_105_schlafzimmer_03_p">
+               Ne­ben der ge­müt­li­chen Ein­rich­tung bie­tet das Schlaf­zim­mer ein zwei­tes Fern­seh­ge­rät, das sich auf dem Klei­der­schrank be­fin­det. So kön­nen Sie Ih­re Lieb­lings­sen­dun­gen auch be­quem vom Bett aus ge­ni­e­ßen. Der har­mo­ni­sche Mix aus na­tür­li­chem Holz, war­mem Licht und dem wun­der­ba­ren Aus­blick auf den See macht die­ses Schlaf­zim­mer zu ei­nem Ort der Ent­span­nung und Er­ho­lung.
+              </p>
+             </div>
+            </div>
+           </div>
+           <div class="scroll-item">
+            <div class="content-grid">
+             <img alt="Badezimmer" class="shadow-image clickable-image" onclick="openModal(this)" src="img/empty.jpg"/>
+             <div class="text-content">
+              <h3 class="translateable" id="whg_105_badezimmer_01_h3">
+               Ba­de­zim­mer
+              </h3>
+              <p class="translateable" id="whg_105_badezimmer_01_p">
+               Be­schrei­bung des Ba­de­zim­mer­s.
+              </p>
+             </div>
+            </div>
+            <div class="content-grid reverse">
+             <img alt="Badezimmer" class="shadow-image clickable-image" onclick="openModal(this)" src="img/empty.jpg"/>
+             <div class="text-content">
+              <h3 class="translateable" id="whg_105_badezimmer_02_h3">
+               Ba­de­zim­mer
+              </h3>
+              <p class="translateable" id="whg_105_badezimmer_02_p">
+               Be­schrei­bung des Ba­de­zim­mer­s.
+              </p>
+             </div>
+            </div>
+            <div class="content-grid">
+             <img alt="Badezimmer" class="shadow-image clickable-image" onclick="openModal(this)" src="img/empty.jpg"/>
+             <div class="text-content">
+              <h3 class="translateable" id="whg_105_badezimmer_03_h3">
+               Ba­de­zim­mer
+              </h3>
+              <p class="translateable" id="whg_105_badezimmer_03_p">
+               Be­schrei­bung des Ba­de­zim­mer­s.
+              </p>
+             </div>
+            </div>
+           </div>
+           <div class="scroll-item">
+            <div class="content-duo-grid">
+             <img alt="Balkon" class="shadow-image clickable-image content-duo" onclick="openModal(this)" src="img/Whg_105_Balkon_01.jpg"/>
+             <div class="text-content content-duo">
+              <h3 class="translateable" id="whg_105_balkon_01_h3">
+               Über­dach­ter Bal­kon für je­des Wet­ter
+              </h3>
+              <p class="translateable" id="whg_105_balkon_01_p">
+               Der 6 Me­ter lan­ge über­dach­te Bal­kon wird Sie be­geis­tern. Egal ob bei Re­gen oder Son­nen­schein, er lädt zum Ver­wei­len ein. An reg­ne­ri­schen Ta­gen kön­nen Sie tro­cken sit­zen, und bei Son­nen­schein sorgt der schat­ti­ge Be­reich für an­ge­neh­me Küh­le. Die be­que­men Lie­ge­stüh­le bie­ten sich für ein klei­nes Schläf­chen an, wäh­rend die Sitz­e­cke ide­al für ei­ne Mahl­zeit im Frei­en ist.
+              </p>
+             </div>
+             <img alt="Badezimmer" class="shadow-image clickable-image content-duo reverse" onclick="openModal(this)" src="img/Whg_105_Balkon_02.jpg"/>
+             <div class="text-content content-duo reverse">
+              <h3 class="translateable" id="whg_105_balkon_02_h3">
+               Pan­ora­ma­ausblich auf den See
+              </h3>
+              <p class="translateable" id="whg_105_balkon_02_p">
+               Von Ih­rem Bal­kon aus ha­ben Sie einen herr­li­chen Blick auf das bun­te Trei­ben auf dem See. Sie kön­nen in al­ler Ru­he Se­gel­boo­te beim Auf­kla­ren be­ob­ach­ten, das Schwim­men der Haus­be­woh­ner ver­fol­gen oder den Schwim­m­un­ter­richt von En­ten, Schwä­nen und Hau­ben­tau­chern be­stau­nen. Viel­leicht se­hen Sie so­gar den Fisch­fang der Mö­wen oder den Fi­scher Rab­ben beim Lee­ren sei­ner Reu­sen. Auch sport­li­che Übun­gen der Sur­fer und Se­ge­l­übun­gen der Se­gel­schu­le kön­nen Sie di­rekt vom Bal­kon aus ge­ni­e­ßen.
+              </p>
+             </div>
+            </div>
+           </div>
+           <div class="scroll-item">
+            <div class="content-solo">
+             <div class="solo">
+              <img alt="Grundriss" src="img/empty.jpg"/>
+             </div>
+             <div class="text-content">
+              <h3 class="translateable" id="whg_105_grundriss_01_h3">
+               Grund­riss
+              </h3>
+              <p class="translateable" id="whg_105_grundriss_01_p">
+               Bei­de Woh­nun­gen lie­gen di­rekt ne­ben­ein­an­der in der 4. Eta­ge und sind mit ei­nem Fahr­stuhl er­reich­ba­r. Durch einen se­pa­ra­ten Ein­gang ist ein bar­rie­re­frei­es Er­rei­chen der Woh­nung mög­lich. Die 50 qm tei­len sich auf in ein Wohn­zim­mer mit Kü­chen­zei­le, ein Schlaf­zim­mer mit Dop­pel­bet­t, Du­sche, Flur, Ab­stell­raum und einen 6m lan­gen, über­dach­ten Bal­kon. Die Woh­nung ist kom­plett aus­ge­stat­tet. Soll­te et­was feh­len, sor­ge ich ger­ne für Ab­hil­fe.
+              </p>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <button class="scroll-button right" onclick="rightScrollButtonClick('wohnung-105')">
+          <i class="fa fa-chevron-right">
+          </i>
+         </button>
+        </div>
+        <div class="pagination-dots" id="wohnung-105-dots">
+         <span class="dot" onclick="jumpToSlide('wohnung-105', 0)">
+         </span>
+         <span class="dot" onclick="jumpToSlide('wohnung-105', 1)">
+         </span>
+         <span class="dot" onclick="jumpToSlide('wohnung-105', 2)">
+         </span>
+         <span class="dot" onclick="jumpToSlide('wohnung-105', 3)">
+         </span>
+         <span class="dot" onclick="jumpToSlide('wohnung-105', 4)">
+         </span>
+         <!-- More dots -->
+        </div>
+       </section>
+       <section id="wohnung-106">
+        <a href="#wohnung-106">
+         <h2 class="headline translateable" id="headline_wohnung_106">
+          Woh­nung 106
+         </h2>
+        </a>
+        <div class="outer-scroll-container">
+         <button class="scroll-button left" onclick="leftScrollButtonClick('wohnung-106')">
+          <i class="fa fa-chevron-left">
+          </i>
+         </button>
+         <div class="scroll-container">
+          <div class="scroll-content" id="wohnung-106-scroll">
+           <div class="scroll-item">
+            <div class="content-grid">
+             <img alt="Wohnzimmer" class="shadow-image clickable-image" onclick="openModal(this)" src="img/Whg_106_Wohnzimmer_01.jpg"/>
+             <div class="text-content">
+              <h3 class="translateable" id="whg_106_wohnzimmer_01_h3">
+              </h3>
+              <p class="translateable" id="whg_106_wohnzimmer_01_p">
+              </p>
+             </div>
+            </div>
+            <div class="content-grid reverse">
+             <img alt="Wohnzimmer" class="shadow-image clickable-image" onclick="openModal(this)" src="img/Whg_105_Wohnzimmer_02.jpg"/>
+             <div class="text-content">
+              <h3 class="translateable" id="whg_106_wohnzimmer_02_h3">
+              </h3>
+              <p class="translateable" id="whg_106_wohnzimmer_02_p">
+              </p>
+             </div>
+            </div>
+            <div class="content-grid">
+             <img alt="Wohnzimmer" class="shadow-image clickable-image" onclick="openModal(this)" src="img/Whg_105_Wohnzimmer_03.jpg"/>
+             <div class="text-content">
+              <h3 class="translateable" id="whg_106_wohnzimmer_03_h3">
+              </h3>
+              <p class="translateable" id="whg_106_wohnzimmer_03_p">
+              </p>
+             </div>
+            </div>
+           </div>
+           <div class="scroll-item">
+           </div>
+           <div class="scroll-item">
+           </div>
+           <div class="scroll-item">
+           </div>
+           <div class="scroll-item">
+           </div>
+          </div>
+         </div>
+         <button class="scroll-button right" onclick="rightScrollButtonClick('wohnung-106')">
+          <i class="fa fa-chevron-right">
+          </i>
+         </button>
+        </div>
+        <div class="pagination-dots" id="wohnung-106-dots">
+         <span class="dot" onclick="jumpToSlide('wohnung-106', 0)">
+         </span>
+         <span class="dot" onclick="jumpToSlide('wohnung-106', 1)">
+         </span>
+         <span class="dot" onclick="jumpToSlide('wohnung-106', 2)">
+         </span>
+         <span class="dot" onclick="jumpToSlide('wohnung-106', 3)">
+         </span>
+         <span class="dot" onclick="jumpToSlide('wohnung-106', 4)">
+         </span>
+         <!-- More dots -->
+        </div>
+       </section>
+      </article>
+     </li>
+    </ul>
+   </nav>
+  </div>
+ </body>
 </html>
