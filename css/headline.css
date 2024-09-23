@@ -5,6 +5,13 @@
     font-weight: normal;
 }
 
+@font-face {
+    src: url("AcariSans-Regular.ttf") format("ttf");
+    font-family: "Acari";
+    font-style: normal;
+    font-weight: normal;
+}
+
 .highlight{
     padding: 0.5vw 0.5vw;
     border-radius: 0.5vw;
@@ -16,6 +23,25 @@
 }
 
 .headline {
+    white-space: nowrap;
+    overflow: visible;
+    transition: all 0.5s;
+    color: white;
+    font-variation-settings: "wght" 200, "ital" 0;
+    font-size: 5vw;
+    text-align: center;
+    font-family: "Meta", 'Segoe UI Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+    text-shadow: none;
+    cursor: pointer;
+    margin-top: 2vw;
+    text-shadow:
+        0.05vw 0.05vw 0.05vw #000,
+        -0.05vw 0.05vw 0.05vw #000,
+        -0.05vw -0.05vw 0.05vw #000,
+        0.05vw -0.05vw 0.05vw #000;
+}
+
+.headline2 {
     white-space: nowrap;
     overflow: visible;
     transition: all 0.5s;
@@ -36,8 +62,13 @@
 }
 
 .headline:hover {
-    font-variation-settings: "wght" 500, "ital" 1;
-    text-shadow: 0.25vw 0.25vw 0 #5f5f5f;
+    text-shadow:
+        0.05vw 0.05vw 0.05vw #000,
+        -0.05vw 0.05vw 0.05vw #000,
+        -0.05vw -0.05vw 0.05vw #000,
+        0.05vw -0.05vw 0.05vw #000,
+        0.25vw 0.25vw 0 #5f5f5f;
+    font-variation-settings: "wght" 500, "ital" 0;
     color: white;
 }
 
