@@ -107,7 +107,7 @@ function showLanguagePopup(lang) {
     }
 }
 
-function updateNavlinkLogoScale(translations, scaleFactor) {
+function updateNavlinkLogoScale(translations, scaleFactor, scaleMobileFactor) {
     document.querySelectorAll('.translateable').forEach(element => {
         const elementId = element.id;
 
@@ -129,11 +129,18 @@ function updateNavlinkLogoScale(translations, scaleFactor) {
             var vw = (currentFontSizePx / window.innerWidth) * 100;
 
             // Step 4: Apply the new font size in vw, scaling by the provided factor
-            element.style.fontSize = `${vw * scaleFactor}vw`;
+
+            const sc = scaleFactor;
+
+            if (window.innerWidth < 768 && elementId == 'logo'){
+                sc = scaleMobileFactor;
+            }
+
+            element.style.fontSize = `${vw * sc}vw`;
 
             console.log("Current font-size: " + currentFontSizePx);
             console.log("Converted to vw: " + vw);
-            console.log("Scale factor: " + scaleFactor);
+            console.log("Scale factor: " + sc);
         }
         console.log("----------------------");
     });
@@ -171,6 +178,8 @@ async function loadTranslations() {
         // Check if the JSON contains a 'scale' value (in vw)
         const scaleFactor = translations.scale || 1.0;  // Default scale is 1.0 vw if not provided
 
+        const scaleMobileFactor = translations.scale_mobile || 1.0;
+
         // Update the text of elements with class "translateable"
         document.querySelectorAll('.translateable').forEach(element => {
             const elementId = element.id;
@@ -183,10 +192,10 @@ async function loadTranslations() {
         });
 
         // Apply scaling to navlink and logo elements
-        updateNavlinkLogoScale(translations, scaleFactor);
+        updateNavlinkLogoScale(translations, scaleFactor, scaleMobileFactor);
 
         window.addEventListener('resize', () => {
-            updateNavlinkLogoScale(translations, scaleFactor);
+            updateNavlinkLogoScale(translations, scaleFactor, scaleMobileFactor);
         });
 
     } catch (error) {
