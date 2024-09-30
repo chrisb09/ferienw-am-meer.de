@@ -90,6 +90,7 @@ def translate_content(json_file, json_file_old, language_code, output_file, tran
     translations = {}
     
     translations["scale"] = 1.0
+    translations["scale_mobile"] = 1.0
     
     original_navbar_size = sum([len(data[x]) for x in filter(lambda y: y.startswith("navlink") or y == "logo", data.keys())])
     translated_navbar_size = 0
@@ -115,6 +116,8 @@ def translate_content(json_file, json_file_old, language_code, output_file, tran
             translated_navbar_size += len(translations[element_id])
             #translations["scale"] = min(translations["scale"], len(text)/len(translated_text))
     translations["scale"] = max(1,original_navbar_size) / max(1,translated_navbar_size)
+    if "logo" in translations and translations["logo"] is not None and "logo" in translations_old and translations_old["logo"] is not None:
+        translations["scale_mobile"] = len(data["logo"]) / len(translations["logo"])
     # Save the translations to a new JSON file
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(translations, f, ensure_ascii=False, indent=4)
