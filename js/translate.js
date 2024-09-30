@@ -130,7 +130,7 @@ function updateNavlinkLogoScale(translations, scaleFactor, scaleMobileFactor) {
 
             // Step 4: Apply the new font size in vw, scaling by the provided factor
 
-            const sc = scaleFactor;
+            var sc = scaleFactor;
 
             if (window.innerWidth < 768 && elementId == 'logo'){
                 sc = scaleMobileFactor;
@@ -138,6 +138,7 @@ function updateNavlinkLogoScale(translations, scaleFactor, scaleMobileFactor) {
 
             element.style.fontSize = `${vw * sc}vw`;
 
+            console.log("Element: " + elementId);
             console.log("Current font-size: " + currentFontSizePx);
             console.log("Converted to vw: " + vw);
             console.log("Scale factor: " + sc);
