@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="284"
+   height="464"
+   viewBox="0 0 284 464"
+   sodipodi:docname="Bad Zwischenahn Whg 105 Grundriss no bg.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title18">Bad Zwischenahn Whg 105 Grundriss</title>
+  <defs
+     id="defs1">
+    <rect
+       x="16.389768"
+       y="15.259439"
+       width="253.75882"
+       height="90.991471"
+       id="rect1" />
+    <rect
+       x="105.12058"
+       y="158.81121"
+       width="57.081608"
+       height="45.778319"
+       id="rect111" />
+    <rect
+       x="83.644336"
+       y="146.94275"
+       width="69.515225"
+       height="51.995128"
+       id="rect85" />
+    <rect
+       x="19.780755"
+       y="142.9866"
+       width="72.906209"
+       height="41.822168"
+       id="rect66" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect61"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,18.867925 C 0,8.4528302 8.4528302,0 18.867925,0 c 10.415094,0 18.867924,8.4528302 18.867924,18.867925 0,10.415094 -8.45283,18.867924 -18.867924,18.867924 C 8.4528302,37.735849 0,29.283019 0,18.867925 Z"
+       copytype="single_stretched"
+       prop_scale="0.07486679"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect60"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,18.867925 C 0,8.4528302 8.4528302,0 18.867925,0 c 10.415094,0 18.867924,8.4528302 18.867924,18.867925 0,10.415094 -8.45283,18.867924 -18.867924,18.867924 C 8.4528302,37.735849 0,29.283019 0,18.867925 Z"
+       copytype="single_stretched"
+       prop_scale="0.07486679"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect51"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,18.867925 C 0,8.4528302 8.4528302,0 18.867925,0 c 10.415094,0 18.867924,8.4528302 18.867924,18.867925 0,10.415094 -8.45283,18.867924 -18.867924,18.867924 C 8.4528302,37.735849 0,29.283019 0,18.867925 Z"
+       copytype="single_stretched"
+       prop_scale="0.49830639"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect50"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,18.867925 C 0,8.4528302 8.4528302,0 18.867925,0 c 10.415094,0 18.867924,8.4528302 18.867924,18.867925 0,10.415094 -8.45283,18.867924 -18.867924,18.867924 C 8.4528302,37.735849 0,29.283019 0,18.867925 Z"
+       copytype="single_stretched"
+       prop_scale="0.49830639"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect49"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,18.867925 C 0,8.4528302 8.4528302,0 18.867925,0 c 10.415094,0 18.867924,8.4528302 18.867924,18.867925 0,10.415094 -8.45283,18.867924 -18.867924,18.867924 C 8.4528302,37.735849 0,29.283019 0,18.867925 Z"
+       copytype="single_stretched"
+       prop_scale="0.49830639"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect47"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,18.867925 C 0,8.4528302 8.4528302,0 18.867925,0 c 10.415094,0 18.867924,8.4528302 18.867924,18.867925 0,10.415094 -8.45283,18.867924 -18.867924,18.867924 C 8.4528302,37.735849 0,29.283019 0,18.867925 Z"
+       copytype="single_stretched"
+       prop_scale="0.49830639"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect40"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,18.867925 C 0,8.4528302 8.4528302,0 18.867925,0 c 10.415094,0 18.867924,8.4528302 18.867924,18.867925 0,10.415094 -8.45283,18.867924 -18.867924,18.867924 C 8.4528302,37.735849 0,29.283019 0,18.867925 Z"
+       copytype="single_stretched"
+       prop_scale="0.21763696"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect39"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,18.867925 C 0,8.4528302 8.4528302,0 18.867925,0 c 10.415094,0 18.867924,8.4528302 18.867924,18.867925 0,10.415094 -8.45283,18.867924 -18.867924,18.867924 C 8.4528302,37.735849 0,29.283019 0,18.867925 Z"
+       copytype="single_stretched"
+       prop_scale="0.21763696"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect37"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,18.867925 C 0,8.4528302 8.4528302,0 18.867925,0 c 10.415094,0 18.867924,8.4528302 18.867924,18.867925 0,10.415094 -8.45283,18.867924 -18.867924,18.867924 C 8.4528302,37.735849 0,29.283019 0,18.867925 Z"
+       copytype="single_stretched"
+       prop_scale="0.21763696"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect35"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,18.867925 C 0,8.4528302 8.4528302,0 18.867925,0 c 10.415094,0 18.867924,8.4528302 18.867924,18.867925 0,10.415094 -8.45283,18.867924 -18.867924,18.867924 C 8.4528302,37.735849 0,29.283019 0,18.867925 Z"
+       copytype="single_stretched"
+       prop_scale="0.21763696"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect32"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,18.867925 C 0,8.4528302 8.4528302,0 18.867925,0 c 10.415094,0 18.867924,8.4528302 18.867924,18.867925 0,10.415094 -8.45283,18.867924 -18.867924,18.867924 C 8.4528302,37.735849 0,29.283019 0,18.867925 Z"
+       copytype="single_stretched"
+       prop_scale="0.21763696"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect25"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,18.867925 C 0,8.4528302 8.4528302,0 18.867925,0 c 10.415094,0 18.867924,8.4528302 18.867924,18.867925 0,10.415094 -8.45283,18.867924 -18.867924,18.867924 C 8.4528302,37.735849 0,29.283019 0,18.867925 Z"
+       copytype="single_stretched"
+       prop_scale="0.5081601"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect24"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,18.867925 C 0,8.4528302 8.4528302,0 18.867925,0 c 10.415094,0 18.867924,8.4528302 18.867924,18.867925 0,10.415094 -8.45283,18.867924 -18.867924,18.867924 C 8.4528302,37.735849 0,29.283019 0,18.867925 Z"
+       copytype="single_stretched"
+       prop_scale="0.5081601"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect23"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,18.867925 C 0,8.4528302 8.4528302,0 18.867925,0 c 10.415094,0 18.867924,8.4528302 18.867924,18.867925 0,10.415094 -8.45283,18.867924 -18.867924,18.867924 C 8.4528302,37.735849 0,29.283019 0,18.867925 Z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect22"
+       is_visible="true"
+       lpeversion="1"
+       pattern="M 0,18.867925 C 0,8.4528302 8.4528302,0 18.867925,0 c 10.415094,0 18.867924,8.4528302 18.867924,18.867925 0,10.415094 -8.45283,18.867924 -18.867924,18.867924 C 8.4528302,37.735849 0,29.283019 0,18.867925 Z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       hide_knot="false"
+       fuse_tolerance="0" />
+    <rect
+       x="19.780755"
+       y="142.9866"
+       width="72.906209"
+       height="41.822168"
+       id="rect102" />
+    <rect
+       x="19.780755"
+       y="142.9866"
+       width="72.906209"
+       height="41.822168"
+       id="rect103" />
+    <rect
+       x="19.780755"
+       y="142.9866"
+       width="72.906209"
+       height="41.822168"
+       id="rect104" />
+    <rect
+       x="19.780755"
+       y="142.9866"
+       width="72.906209"
+       height="41.822168"
+       id="rect105" />
+    <rect
+       x="19.780755"
+       y="142.9866"
+       width="72.906209"
+       height="41.822168"
+       id="rect106" />
+    <rect
+       x="19.780755"
+       y="142.9866"
+       width="72.906209"
+       height="41.822168"
+       id="rect107" />
+    <rect
+       x="19.780755"
+       y="142.9866"
+       width="72.906209"
+       height="41.822168"
+       id="rect108" />
+    <rect
+       x="19.780755"
+       y="142.9866"
+       width="72.906209"
+       height="41.822168"
+       id="rect109" />
+    <rect
+       x="19.780755"
+       y="142.9866"
+       width="72.906209"
+       height="41.822168"
+       id="rect110" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="1.7693966"
+     inkscape:cx="95.512787"
+     inkscape:cy="238.2168"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="neu">
+    <rect
+       style="fill:#ffffff"
+       id="rect10"
+       width="283.16867"
+       height="463.02014"
+       x="0.35824838"
+       y="0.71649677"
+       inkscape:label="hintergrund" />
+    <g
+       inkscape:groupmode="layer"
+       id="layer2"
+       inkscape:label="küche">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke markers fill"
+         d="m 14.808088,345.07011 h 17.520098 c 0,-4.77232 -2.036288,-11.55937 -7.612059,-11.55937 -8.220251,0.0923 -9.868256,6.95174 -9.908039,11.55937 z"
+         id="path8"
+         sodipodi:nodetypes="cccc"
+         inkscape:label="stuhl1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke markers fill"
+         d="m 50.67296,344.96974 h 17.520098 c 0,-4.77232 -2.036288,-11.55937 -7.612059,-11.55937 -8.220251,0.0923 -9.868256,6.95174 -9.908039,11.55937 z"
+         id="path8-5"
+         sodipodi:nodetypes="cccc"
+         inkscape:label="stuhl2" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.969605px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke markers fill"
+         d="m 51.257205,399.70502 h 17.550502 c 0,4.47875 -2.039821,10.8485 -7.625268,10.8485 -8.234517,-0.0799 -9.885382,-6.52427 -9.925234,-10.8485 z"
+         id="path17"
+         sodipodi:nodetypes="cccc"
+         inkscape:label="stuhl3" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.969605px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke markers fill"
+         d="m 13.815061,399.70502 h 17.550502 c 0,4.47875 -2.039821,10.8485 -7.625268,10.8485 -8.234517,-0.0799 -9.885382,-6.52427 -9.925234,-10.8485 z"
+         id="path18"
+         sodipodi:nodetypes="cccc"
+         inkscape:label="stuhl4" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 9.0426309,428.53593 H 109.50061"
+         id="path20"
+         inkscape:label="küchenablage" />
+      <path
+         style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 109.9986,352.87471 V 454.68086"
+         id="path19"
+         inkscape:label="küchenzeile" />
+      <g
+         inkscape:groupmode="layer"
+         id="layer6"
+         inkscape:label="spüle">
+        <path
+           style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 117.49169,370.25868 c -0.10375,-5.29152 4.37743,-9.6756 10.00265,-9.7859 5.62521,-0.1103 10.27481,4.09475 10.37856,9.38627 0.10376,5.29152 -4.37743,9.6756 -10.00264,9.7859 -5.62522,0.1103 -10.27482,-4.09475 -10.37857,-9.38627 z"
+           id="path23"
+           inkscape:path-effect="#path-effect24"
+           inkscape:original-d="m 117.49169,370.25868 20.38121,-0.39963"
+           sodipodi:nodetypes="cc"
+           transform="translate(0,1.3987106)" />
+        <g
+           inkscape:groupmode="layer"
+           id="layer10"
+           inkscape:label="wasserhahn">
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 139.67125,371.05794 h -5.49494"
+             id="path26" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.37795276;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+             d="m 138.81851,370.04141 0.77711,0.7771 0.45366,-0.78576"
+             id="path27" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.37795276;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+             d="m 139.57795,370.88916 0.81422,0.21817"
+             id="path28" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.37795276;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+             d="m 139.59562,370.90682 0.23646,0.8825"
+             id="path29" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+             d="m 139.52497,371.17174 -0.3242,0.56153"
+             id="path30" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.37795276;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+             d="m 139.56029,370.99513 -0.57399,0.57399"
+             id="path31" />
+        </g>
+      </g>
+      <path
+         style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 10.090698,348.57867 H 72.83286 v 46.75689 H 9.4912506"
+         id="path40"
+         inkscape:label="küchentisch" />
+      <g
+         inkscape:groupmode="layer"
+         id="layer7"
+         inkscape:label="herd">
+        <path
+           style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 114.49445,413.81853 c 0.27773,-2.24963 2.31587,-3.85162 4.54942,-3.57588 2.23355,0.27575 3.82087,2.32533 3.54314,4.57496 -0.27773,2.24963 -2.31587,3.85163 -4.54942,3.57588 -2.23354,-0.27575 -3.82087,-2.32533 -3.54314,-4.57496 z"
+           id="path37"
+           inkscape:path-effect="#path-effect39"
+           inkscape:original-d="m 114.49445,413.81853 8.09254,0.99908"
+           sodipodi:nodetypes="cc"
+           inkscape:label="kochfeld4"
+           transform="translate(0.0999083,10.290514)" />
+        <path
+           style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 114.49445,413.81853 c 0.27773,-2.24963 2.31587,-3.85162 4.54942,-3.57588 2.23355,0.27575 3.82087,2.32533 3.54314,4.57496 -0.27773,2.24963 -2.31587,3.85163 -4.54942,3.57588 -2.23354,-0.27575 -3.82087,-2.32533 -3.54314,-4.57496 z"
+           id="path35"
+           inkscape:path-effect="#path-effect37"
+           inkscape:original-d="m 114.49445,413.81853 8.09254,0.99908"
+           sodipodi:nodetypes="cc"
+           inkscape:label="kochfeld3"
+           transform="translate(10.49033,10.290514)" />
+        <path
+           style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 114.49445,413.81853 c 0.27773,-2.24963 2.31587,-3.85162 4.54942,-3.57588 2.23355,0.27575 3.82087,2.32533 3.54314,4.57496 -0.27773,2.24963 -2.31587,3.85163 -4.54942,3.57588 -2.23354,-0.27575 -3.82087,-2.32533 -3.54314,-4.57496 z"
+           id="path34"
+           inkscape:path-effect="#path-effect35"
+           inkscape:original-d="m 114.49445,413.81853 8.09254,0.99908"
+           sodipodi:nodetypes="cc"
+           inkscape:label="kochfeld2"
+           transform="translate(10.49033)" />
+        <path
+           style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+           d="m 114.49445,413.81853 c 0.27773,-2.24963 2.31587,-3.85162 4.54942,-3.57588 2.23355,0.27575 3.82087,2.32533 3.54314,4.57496 -0.27773,2.24963 -2.31587,3.85163 -4.54942,3.57588 -2.23354,-0.27575 -3.82087,-2.32533 -3.54314,-4.57496 z"
+           id="path32"
+           inkscape:path-effect="#path-effect32"
+           inkscape:original-d="m 114.49445,413.81853 8.09254,0.99908"
+           sodipodi:nodetypes="cc"
+           inkscape:label="kochfeld1" />
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer3"
+       inkscape:label="wände">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 275.23508,111.05481 h -83.92692 v 7.9123 h 84.2095"
+         id="path3"
+         inkscape:label="wand balkon schlafzimmer" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 8.7918953,113.29556 H 107.40099 v 6.09438 H 9.091619"
+         id="path2"
+         inkscape:label="wand balkon wohnzimmer" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:10.8283;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="M 151.78197,458.57795 H 5.4043849 V 5.0334958 H 278.3788 V 458.57795 h -81.66626"
+         id="path1"
+         inkscape:label="außenwand" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:3.64724409;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+         d="m 145.16618,112.39639 v 188.12658 h 36.06675"
+         id="path61"
+         inkscape:label="wohnzimmer - schlafzimmer" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:3.64724409;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+         d="m 275.14636,300.32315 h -59.34529 v 17.38398"
+         id="path62"
+         inkscape:label="abstellraum - schlafzimmer" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:3.64724409;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+         d="m 215.40143,341.08557 v 48.15561"
+         id="path63"
+         inkscape:label="badezimmer - flur" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:3.64724409;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+         d="m 216.2007,416.41613 v 38.56445"
+         id="path64"
+         inkscape:label="badezimmer - eingang" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:3.64724409;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+         d="m 215.80107,352.87471 h 59.14547"
+         id="path65"
+         inkscape:label="badezimmer - abstellraum" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:3.64724409;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+         d="M 92.404385,352.38002 H 145.81242 V 453.96833"
+         id="path66"
+         inkscape:label="küchenwand" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer8"
+       inkscape:label="badezimmer">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 246.12911,454.95737 v -39.56151 h 34.47503"
+         id="path51"
+         inkscape:label="dusche" />
+      <g
+         inkscape:groupmode="layer"
+         id="layer11"
+         inkscape:label="waschbecken">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 218.7983,354.27342 c 0,0 -0.80094,13.78729 1.89825,13.78729 4.21146,0 20.58103,-0.19982 20.58103,-0.19982 2.49331,0 2.48752,-8.08842 2.29788,-13.68738"
+           id="path52"
+           sodipodi:nodetypes="cscc"
+           inkscape:label="becken" />
+        <g
+           inkscape:groupmode="layer"
+           id="g58"
+           inkscape:label="wasserhahn"
+           transform="rotate(-90,178.32089,318.32145)">
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 139.67125,371.05794 h -5.49494"
+             id="path53" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.377953;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m 138.81851,370.04141 0.77711,0.7771 0.45366,-0.78576"
+             id="path54" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.377953;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m 139.57795,370.88916 0.81422,0.21817"
+             id="path55" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.377953;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m 139.59562,370.90682 0.23646,0.8825"
+             id="path56" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m 139.52497,371.17174 -0.3242,0.56153"
+             id="path57" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.377953;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m 139.56029,370.99513 -0.57399,0.57399"
+             id="path58" />
+        </g>
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.49371px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 240.02122,453.23867 c 0,-25.73186 -17.68593,-25.56627 -17.68593,0.14858"
+         id="path46"
+         sodipodi:nodetypes="cc"
+         inkscape:label="wc" />
+      <path
+         style="fill:#000000;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 229.63337,448.52862 c 0,-0.77974 0.56178,-1.41258 1.25396,-1.41258 0.69219,0 1.25396,0.63284 1.25396,1.41258 0,0.77974 -0.56177,1.41258 -1.25396,1.41258 -0.69218,0 -1.25396,-0.63284 -1.25396,-1.41258 z"
+         id="path60"
+         inkscape:path-effect="#path-effect60"
+         inkscape:original-d="m 229.63337,448.52862 h 2.50792"
+         transform="translate(0.63078939,1.240278)"
+         inkscape:label="wc abflusss" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer4"
+       inkscape:label="wohnzimmer">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 10.390422,252.56717 h 95.611858 v 49.45441 H 9.8908822 V 278.64314 H 106.00228"
+         id="path7"
+         inkscape:label="sofa" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 110.89777,161.55108 h 34.06859 v 36.36647 h -34.06859 z"
+         id="path5"
+         inkscape:label="tv" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 12.151035,182.12424 39.702802,200.06821 74.884288,145.24726 46.484775,128.00974 Z"
+         id="path4"
+         inkscape:label="schlafsofa" />
+      <path
+         style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 252.76699,136.07456 c 0,-5.18991 4.16257,-9.40201 9.29145,-9.40201 5.12888,0 9.29146,4.2121 9.29146,9.40201 0,5.18991 -4.16258,9.40201 -9.29146,9.40201 -5.12888,0 -9.29145,-4.2121 -9.29145,-9.40201 z"
+         id="path47"
+         inkscape:path-effect="#path-effect47"
+         inkscape:original-d="m 252.76699,136.07456 h 18.58287"
+         transform="translate(0.79926321,1.2988027)"
+         inkscape:label="tisch" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer5"
+       inkscape:label="schlafzimmer">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 145.26609,160.15237 h 17.48388 v 80.72558 h -18.08333"
+         id="path6"
+         inkscape:label="kleiderschrank1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 274.81121,157.11571 h -91.98052 v 94.66505 h 91.41535"
+         id="path41"
+         inkscape:label="bett" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:15,10;stroke-dashoffset:24.4"
+         d="M 273.82217,204.58953 H 182.97199"
+         id="path42"
+         inkscape:label="bettmitte" />
+      <g
+         inkscape:groupmode="layer"
+         id="layer9"
+         inkscape:label="kleiderschrank2">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 259.46082,274.84664 v 2.89732"
+           id="path45" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 215.50134,299.32407 v -24.47743 h 58.64594"
+           id="path43" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 236.08237,274.94654 v 2.89733"
+           id="path44" />
+      </g>
+      <path
+         style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 252.76699,136.07456 c 0,-5.18991 4.16257,-9.40201 9.29145,-9.40201 5.12888,0 9.29146,4.2121 9.29146,9.40201 0,5.18991 -4.16258,9.40201 -9.29146,9.40201 -5.12888,0 -9.29145,-4.2121 -9.29145,-9.40201 z"
+         id="path48"
+         inkscape:path-effect="#path-effect49"
+         inkscape:original-d="m 252.76699,136.07456 h 18.58287"
+         transform="matrix(1.2853787,0,0,1.2853787,-286.23744,45.827774)"
+         inkscape:label="nachttisch1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 273.64774,256.26377 c -17.30152,0 -17.19018,11.78913 0.0999,11.78913"
+         id="path59"
+         sodipodi:nodetypes="cc"
+         inkscape:label="nachttisch2" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="texte">
+    <switch
+       id="switch1"
+       inkscape:label="loggia text">
+      <text
+         xml:space="preserve"
+         id="text1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(1.1303288,3.3909866)"
+         inkscape:label="de"
+         systemLanguage="de"><tspan
+           x="97.925537"
+           y="43.889395"
+           id="tspan11">Loggia
+</tspan><tspan
+           x="85.653534"
+           y="83.889395"
+           id="tspan12">(Balkon)
+</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(1.1303288,3.3909866)"
+         inkscape:label="en"
+         systemLanguage="en"><tspan
+           x="97.925537"
+           y="43.889395"
+           id="tspan13">Loggia
+</tspan><tspan
+           x="80.66153"
+           y="83.889395"
+           id="tspan14">(Balcony)</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(1.1303288,3.3909866)"
+         inkscape:label="fr"
+         systemLanguage="fr"><tspan
+           x="97.925537"
+           y="43.889395"
+           id="tspan15">Loggia
+</tspan><tspan
+           x="87.461517"
+           y="83.889395"
+           id="tspan16">(Balcon)</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(1.1303288,3.3909866)"
+         inkscape:label="es"
+         systemLanguage="es"><tspan
+           x="106.59753"
+           y="43.889395"
+           id="tspan17">Logia
+</tspan><tspan
+           x="87.461517"
+           y="83.889395"
+           id="tspan18">(Balcón)</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(1.1303288,3.3909866)"
+         inkscape:label="nl"
+         systemLanguage="nl"><tspan
+           x="97.925537"
+           y="43.889395"
+           id="tspan19">Loggia
+</tspan><tspan
+           x="85.653534"
+           y="83.889395"
+           id="tspan20">(Balkon)</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(1.1303288,3.3909866)"
+         inkscape:label="uk"
+         systemLanguage="uk"><tspan
+           x="87.541534"
+           y="44.375771"
+           id="tspan21">Лоджія
+</tspan><tspan
+           x="74.693512"
+           y="84.862149"
+           id="tspan22">(Балкон)</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(1.1303288,3.3909866)"
+         inkscape:label="tr"
+         systemLanguage="tr"><tspan
+           x="95.925537"
+           y="43.889395"
+           id="tspan23">Lojman
+</tspan><tspan
+           x="85.653534"
+           y="83.889395"
+           id="tspan24">(Balkon)</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(1.1303288,3.3909866)"
+         inkscape:label="it"
+         systemLanguage="it"><tspan
+           x="97.925537"
+           y="43.889395"
+           id="tspan25">Loggia
+</tspan><tspan
+           x="80.037506"
+           y="83.889395"
+           id="tspan26">(Balcone)</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(1.1303288,3.3909866)"
+         inkscape:label="pl"
+         systemLanguage="pl"><tspan
+           x="97.925537"
+           y="43.889395"
+           id="tspan27">Loggia
+</tspan><tspan
+           x="85.653534"
+           y="83.889395"
+           id="tspan28">(Balkon)</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text10"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(1.1303288,3.3909866)"
+         inkscape:label="da"
+         systemLanguage="da"><tspan
+           x="97.925537"
+           y="43.889395"
+           id="tspan29">Loggia
+</tspan><tspan
+           x="85.653534"
+           y="83.889395"
+           id="tspan30">(Balkon)
+</tspan></text>
+    </switch>
+    <switch
+       id="switch67"
+       inkscape:label="schlafsofa text">
+      <text
+         xml:space="preserve"
+         id="text66"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="de"
+         inkscape:label="de"><tspan
+           x="28.52366"
+           y="155.0203"
+           id="tspan31">Schlaf-
+</tspan><tspan
+           x="39.229024"
+           y="169.02033"
+           id="tspan32">sofa</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text70"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="en"
+         inkscape:label="en"><tspan
+           x="38.249027"
+           y="155.0203"
+           id="tspan33">Sofa
+</tspan><tspan
+           x="42.729013"
+           y="169.02033"
+           id="tspan34">bed</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text72"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="fr"
+         inkscape:label="fr"><tspan
+           x="27.758336"
+           y="155.0203"
+           id="tspan35">Canapé
+</tspan><tspan
+           x="44.549013"
+           y="169.02033"
+           id="tspan36">-lit</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text74"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="es"
+         inkscape:label="es"><tspan
+           x="38.249027"
+           y="155.0203"
+           id="tspan37">Sofá
+</tspan><tspan
+           x="35.906343"
+           y="169.02033"
+           id="tspan38">cama</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text76"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="nl"
+         inkscape:label="nl"><tspan
+           x="34.497016"
+           y="155.0203"
+           id="tspan39">Slaap
+</tspan><tspan
+           x="37.745035"
+           y="169.02033"
+           id="tspan40">bank</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text78"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="uk"
+         inkscape:label="uk"><tspan
+           x="27.450326"
+           y="155.30402"
+           id="tspan41">Диван
+</tspan><tspan
+           x="27.776992"
+           y="169.58777"
+           id="tspan42">-ліжко</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text80"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="tr"
+         inkscape:label="tr"><tspan
+           x="42.27168"
+           y="155.0203"
+           id="tspan43">Çek
+</tspan><tspan
+           x="42.719702"
+           y="169.02033"
+           id="tspan44">yat</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text82"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="it"
+         inkscape:label="it"><tspan
+           x="29.877017"
+           y="155.0203"
+           id="tspan45">Divano
+</tspan><tspan
+           x="36.821007"
+           y="169.02033"
+           id="tspan46">letto</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text84"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="pl"
+         inkscape:label="pl"><tspan
+           x="38.249027"
+           y="155.0203"
+           id="tspan47">Sofa
+</tspan><tspan
+           x="22.746338"
+           y="169.02033"
+           id="tspan48">rozkłada</tspan><tspan
+           x="47.003706"
+           y="183.02036"
+           id="tspan49">na</tspan></text>
+    </switch>
+    <switch
+       id="switch102"
+       inkscape:label="sofa text"
+       transform="rotate(60,-47.269836,224.72301)">
+      <text
+         xml:space="preserve"
+         id="text86"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="de"
+         inkscape:label="de"><tspan
+           x="38.249027"
+           y="155.0203"
+           id="tspan50">Sofa</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text22"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="en"
+         inkscape:label="en"><tspan
+           x="38.249027"
+           y="155.0203"
+           id="tspan51">Sofa</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text23"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="fr"
+         inkscape:label="fr"><tspan
+           x="27.758336"
+           y="155.0203"
+           id="tspan52">Canapé</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text24"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="es"
+         inkscape:label="es"><tspan
+           x="38.249027"
+           y="155.0203"
+           id="tspan53">Sofá</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text25"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="nl"
+         inkscape:label="nl"><tspan
+           x="36.046355"
+           y="155.0203"
+           id="tspan54">Bank</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text26"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="uk"
+         inkscape:label="uk"><tspan
+           x="27.450326"
+           y="155.30402"
+           id="tspan55">Диван</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text27"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="tr"
+         inkscape:label="tr"><tspan
+           x="28.112986"
+           y="155.0203"
+           id="tspan56">Kanepe</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text28"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="it"
+         inkscape:label="it"><tspan
+           x="29.877017"
+           y="155.0203"
+           id="tspan57">Divano</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text29"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="pl"
+         inkscape:label="pl"><tspan
+           x="38.249027"
+           y="155.0203"
+           id="tspan58">Sofa</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text30"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         systemLanguage="da"
+         inkscape:label="da"><tspan
+           x="38.249027"
+           y="155.0203"
+           id="tspan59">Sofa</tspan></text>
+    </switch>
+    <switch
+       id="switch30"
+       inkscape:label="tv text">
+      <text
+         xml:space="preserve"
+         id="text110"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(7.9123021,10.17296)"
+         inkscape:label="de"
+         systemLanguage="de"><tspan
+           x="105.12109"
+           y="175.51119"
+           id="tspan60">TV</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text31"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(7.9123021,10.17296)"
+         inkscape:label="en"
+         systemLanguage="en"><tspan
+           x="105.12109"
+           y="175.51119"
+           id="tspan61">TV</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text32"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(7.9123021,10.17296)"
+         inkscape:label="fr"
+         systemLanguage="fr"><tspan
+           x="105.12109"
+           y="175.51119"
+           id="tspan62">Télé</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text33"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(7.9123021,10.17296)"
+         inkscape:label="es"
+         systemLanguage="es"><tspan
+           x="105.12109"
+           y="175.51119"
+           id="tspan63">Tele</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text34"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(7.9123021,10.17296)"
+         inkscape:label="nl"
+         systemLanguage="nl"><tspan
+           x="105.12109"
+           y="175.51119"
+           id="tspan64">TV</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text35"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(7.9123021,10.17296)"
+         inkscape:label="uk"
+         systemLanguage="uk"><tspan
+           x="105.12109"
+           y="175.79491"
+           id="tspan65">ТБ</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text36"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(7.9123021,10.17296)"
+         inkscape:label="de"
+         systemLanguage="de"><tspan
+           x="105.12109"
+           y="175.51119"
+           id="tspan66">TV</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text37"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(7.9123021,10.17296)"
+         inkscape:label="de"
+         systemLanguage="de"><tspan
+           x="105.12109"
+           y="175.51119"
+           id="tspan67">TV</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text38"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(7.9123021,10.17296)"
+         inkscape:label="de"
+         systemLanguage="de"><tspan
+           x="105.12109"
+           y="175.51119"
+           id="tspan68">TV</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text39"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(7.9123021,10.17296)"
+         inkscape:label="de"
+         systemLanguage="de"><tspan
+           x="105.12109"
+           y="175.51119"
+           id="tspan69">TV</tspan></text>
+    </switch>
+  </g>
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Bad Zwischenahn Whg 105 Grundriss</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

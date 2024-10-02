@@ -1,3 +1,16 @@
+@font-face {
+    src: url("../res/MetaVariableDemo-Set.woff2");
+    font-family: "Meta";
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    src: url("../res/ink-free.ttf");
+    font-family: "Ink Free";
+    font-style: normal;
+    font-weight: normal;
+}
 
 /*
 
