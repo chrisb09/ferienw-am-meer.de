@@ -701,7 +701,7 @@
       <text
          xml:space="preserve"
          id="text1"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;text-align:center;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(1.1303288,3.3909866)"
          inkscape:label="de"
          systemLanguage="de"><tspan
@@ -716,7 +716,7 @@
       <text
          xml:space="preserve"
          id="text2"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(1.1303288,3.3909866)"
          inkscape:label="en"
          systemLanguage="en"><tspan
@@ -730,7 +730,7 @@
       <text
          xml:space="preserve"
          id="text3"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(1.1303288,3.3909866)"
          inkscape:label="fr"
          systemLanguage="fr"><tspan
@@ -744,7 +744,7 @@
       <text
          xml:space="preserve"
          id="text4"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(1.1303288,3.3909866)"
          inkscape:label="es"
          systemLanguage="es"><tspan
@@ -758,7 +758,7 @@
       <text
          xml:space="preserve"
          id="text5"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(1.1303288,3.3909866)"
          inkscape:label="nl"
          systemLanguage="nl"><tspan
@@ -772,7 +772,7 @@
       <text
          xml:space="preserve"
          id="text6"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(1.1303288,3.3909866)"
          inkscape:label="uk"
          systemLanguage="uk"><tspan
@@ -786,7 +786,7 @@
       <text
          xml:space="preserve"
          id="text7"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(1.1303288,3.3909866)"
          inkscape:label="tr"
          systemLanguage="tr"><tspan
@@ -800,7 +800,7 @@
       <text
          xml:space="preserve"
          id="text8"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(1.1303288,3.3909866)"
          inkscape:label="it"
          systemLanguage="it"><tspan
@@ -814,7 +814,7 @@
       <text
          xml:space="preserve"
          id="text9"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(1.1303288,3.3909866)"
          inkscape:label="pl"
          systemLanguage="pl"><tspan
@@ -828,7 +828,7 @@
       <text
          xml:space="preserve"
          id="text10"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;text-align:center;white-space:pre;shape-inside:url(#rect1);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(1.1303288,3.3909866)"
          inkscape:label="da"
          systemLanguage="da"><tspan
@@ -847,7 +847,7 @@
       <text
          xml:space="preserve"
          id="text66"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect66);display:inline;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -863,7 +863,7 @@
       <text
          xml:space="preserve"
          id="text70"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -879,7 +879,7 @@
       <text
          xml:space="preserve"
          id="text72"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -895,7 +895,7 @@
       <text
          xml:space="preserve"
          id="text74"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -911,7 +911,7 @@
       <text
          xml:space="preserve"
          id="text76"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -927,7 +927,7 @@
       <text
          xml:space="preserve"
          id="text78"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -943,7 +943,7 @@
       <text
          xml:space="preserve"
          id="text80"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -959,7 +959,7 @@
       <text
          xml:space="preserve"
          id="text82"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -975,7 +975,7 @@
       <text
          xml:space="preserve"
          id="text84"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect66);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -999,7 +999,7 @@
       <text
          xml:space="preserve"
          id="text86"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect110);display:inline;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -1011,7 +1011,7 @@
       <text
          xml:space="preserve"
          id="text22"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -1023,7 +1023,7 @@
       <text
          xml:space="preserve"
          id="text23"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -1035,7 +1035,7 @@
       <text
          xml:space="preserve"
          id="text24"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -1047,7 +1047,7 @@
       <text
          xml:space="preserve"
          id="text25"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -1059,7 +1059,7 @@
       <text
          xml:space="preserve"
          id="text26"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -1071,7 +1071,7 @@
       <text
          xml:space="preserve"
          id="text27"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -1083,7 +1083,7 @@
       <text
          xml:space="preserve"
          id="text28"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -1095,7 +1095,7 @@
       <text
          xml:space="preserve"
          id="text29"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -1107,7 +1107,7 @@
       <text
          xml:space="preserve"
          id="text30"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect110);display:none;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
          y="0"
          transform="rotate(-57.083565,55.810997,171.41333)"
@@ -1123,7 +1123,7 @@
       <text
          xml:space="preserve"
          id="text110"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;white-space:pre;shape-inside:url(#rect111);display:inline;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(7.9123021,10.17296)"
          inkscape:label="de"
          systemLanguage="de"><tspan
@@ -1133,7 +1133,7 @@
       <text
          xml:space="preserve"
          id="text31"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(7.9123021,10.17296)"
          inkscape:label="en"
          systemLanguage="en"><tspan
@@ -1143,7 +1143,7 @@
       <text
          xml:space="preserve"
          id="text32"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(7.9123021,10.17296)"
          inkscape:label="fr"
          systemLanguage="fr"><tspan
@@ -1153,7 +1153,7 @@
       <text
          xml:space="preserve"
          id="text33"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(7.9123021,10.17296)"
          inkscape:label="es"
          systemLanguage="es"><tspan
@@ -1163,7 +1163,7 @@
       <text
          xml:space="preserve"
          id="text34"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(7.9123021,10.17296)"
          inkscape:label="nl"
          systemLanguage="nl"><tspan
@@ -1173,7 +1173,7 @@
       <text
          xml:space="preserve"
          id="text35"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(7.9123021,10.17296)"
          inkscape:label="uk"
          systemLanguage="uk"><tspan
@@ -1183,7 +1183,7 @@
       <text
          xml:space="preserve"
          id="text36"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(7.9123021,10.17296)"
          inkscape:label="de"
          systemLanguage="de"><tspan
@@ -1193,7 +1193,7 @@
       <text
          xml:space="preserve"
          id="text37"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(7.9123021,10.17296)"
          inkscape:label="de"
          systemLanguage="de"><tspan
@@ -1203,7 +1203,7 @@
       <text
          xml:space="preserve"
          id="text38"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(7.9123021,10.17296)"
          inkscape:label="de"
          systemLanguage="de"><tspan
@@ -1213,7 +1213,7 @@
       <text
          xml:space="preserve"
          id="text39"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;white-space:pre;shape-inside:url(#rect111);display:none;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(7.9123021,10.17296)"
          inkscape:label="de"
          systemLanguage="de"><tspan
