@@ -700,6 +700,20 @@
        inkscape:label="loggia text">
       <text
          xml:space="preserve"
+         id="text1101"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;text-align:center;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(1.1303288,3.3909866)"
+         inkscape:label="default"><tspan
+           x="97.925537"
+           y="43.889395"
+           id="tspan11">Loggia
+</tspan><tspan
+           x="85.653534"
+           y="83.889395"
+           id="tspan12">(Balkon)
+</tspan></text>
+<text
+         xml:space="preserve"
          id="text1"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;text-align:center;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#000000;fill-opacity:1;stroke:none"
          transform="translate(1.1303288,3.3909866)"
@@ -844,6 +858,21 @@
     <switch
        id="switch67"
        inkscape:label="schlafsofa text">
+       <text
+         xml:space="preserve"
+         id="text1102"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect66);display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         inkscape:label="default"><tspan
+           x="28.52366"
+           y="155.0203"
+           id="tspan31">Schlaf-
+</tspan><tspan
+           x="39.229024"
+           y="169.02033"
+           id="tspan32">sofa</tspan></text>
       <text
          xml:space="preserve"
          id="text66"
@@ -998,6 +1027,17 @@
        transform="rotate(60,-47.269836,224.72301)">
       <text
          xml:space="preserve"
+         id="text1103"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect110);display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         x="24.327995"
+         y="0"
+         transform="rotate(-57.083565,55.810997,171.41333)"
+         inkscape:label="default"><tspan
+           x="38.249027"
+           y="155.0203"
+           id="tspan50">Sofa</tspan></text>
+      <text
+         xml:space="preserve"
          id="text86"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.75;text-align:center;white-space:pre;shape-inside:url(#rect110);display:inline;fill:#000000;fill-opacity:1;stroke:none"
          x="24.327995"
@@ -1120,6 +1160,15 @@
     <switch
        id="switch30"
        inkscape:label="tv text">
+       <text
+         xml:space="preserve"
+         id="text1100"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;white-space:pre;shape-inside:url(#rect111);display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(7.9123021,10.17296)"
+         inkscape:label="default"><tspan
+           x="105.12109"
+           y="175.51119"
+           id="tspan60">TV</tspan></text>
       <text
          xml:space="preserve"
          id="text110"
